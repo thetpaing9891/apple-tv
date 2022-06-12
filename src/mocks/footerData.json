@@ -1,0 +1,294 @@
+{
+    
+    "navigation" : [
+            {
+                "key" : "products",
+                "label" : "Shop and Learn",
+                "data" : [
+                        {
+                            "name" : "Store",
+                            "path" : ""
+                        },
+                        {
+                            "name" : "Mac",
+                            "path" : ""
+                        },
+                        {
+                            "name" : "iPad",
+                            "path" : ""
+                        },
+                        {
+                            "name" : "iPhone",
+                            "path" : ""
+                        },
+                        {
+                            "name" : "Watch",
+                            "path" : ""
+                        },
+                        {
+                            "name" : "AirPods",
+                            "path" : ""
+                        },
+                        {
+                            "name" : "TV & Home",
+                            "path" : ""
+                        },
+                        {
+                            "name" : "AirTag",
+                            "path" : ""
+                        },
+                        {
+                            "name" : "Accessories",
+                            "path" : ""
+                        },
+                        {
+                            "name" : "Gift Cards",
+                            "path" : ""
+                        }
+                    ]
+            },
+            {
+                "key" : "services",
+                    "label" : "Services",
+                    "data" : [
+                        {
+                            "name" : "Apple Music",
+                            "path" : ""
+                        },
+                        {
+                            "name" : "Apple TV+",
+                            "path" : ""
+                        },
+                        {
+                            "name" : "Apple Fitness+",
+                            "path" : ""
+                        },
+                        {
+                            "name" : "Apple News+",
+                            "path" : ""
+                        },
+                        {
+                            "name" : "iCloud",
+                            "path" : ""
+                        },
+                        {
+                            "name" : "Apple One",
+                            "path" : ""
+                        },
+                        {
+                            "name" : "Apple Card",
+                            "path" : ""
+                        },
+                        {
+                            "name" : "Apple Books",
+                            "path" : ""
+                        },
+                        {
+                            "name" : "Apple Podcasts",
+                            "path" : ""
+                        },
+                        {
+                            "name" : "App Store",
+                            "path" : ""
+                        }
+                    ]
+                },
+                {
+                    "key" :  "accounts",
+                    "label" : "Account",
+                    "data" : [
+                        {
+                            "name" : "Manage Your Apple ID",
+                            "path" : ""
+                        },
+                        {
+                            "name" : "Apple Store Account",
+                            "path" : ""
+                        },
+                        {
+                            "name" : "iCloud.com",
+                            "path" : ""
+                        }
+                    ]
+                },
+                {
+                    "key" :  "storeservices",
+                    "label" : "Apple Store",
+                    "data" : [
+                        {
+                            "name" : "Find a Store",
+                            "path" : ""
+                        },
+                        {
+                            "name" : "Genius Bar",
+                            "path" : ""
+                        },
+                        {
+                            "name" : "Today at Apple",
+                            "path" : ""
+                        },
+                        {
+                            "name" : "Apple Camp",
+                            "path" : ""
+                        },
+                        {
+                            "name" : "Apple Store App",
+                            "path" : ""
+                        },
+                        {
+                            "name" : "Refurbished and Clearance",
+                            "path" : ""
+                        },
+                        {
+                            "name" : "Financing",
+                            "path" : ""
+                        },
+                        {
+                            "name" : "Apple Trade In",
+                            "path" : ""
+                        },
+                        {
+                            "name" : "Order Status",
+                            "path" : ""
+                        },
+                        {
+                            "name" : "Shopping Help",
+                            "path" : ""
+                        }
+                    ]
+                },
+                {
+                    "key" : "business",
+                    "label" : "For Business",
+                    "data" : [
+                        {
+                            "name" : "Apple and Business",
+                            "path" : ""
+                        },
+                        {
+                            "name" : "Shop for Business",
+                            "path" : ""
+                        }
+                    ]
+                },
+                {
+                    "key" : "education",
+                    "label" : "For Education",
+                    "data" : [
+                        {
+                            "name" : "Apple and Education",
+                            "path" : ""
+                        },
+                        {
+                            "name" : "Shop for K-12",
+                            "path" : ""
+                        },
+                        {
+                            "name" : "Shop for College",
+                            "path" : ""
+                        }
+                    ]
+                },
+                {
+                    "key" : "healthcare",
+                    "label" : "For Healthcare",
+                    "data" : [
+                        {
+                            "name" : "Apple in Healthcaren",
+                            "path" : ""
+                        },
+                        {
+                            "name" : "Health on Apple Watch",
+                            "path" : ""
+                        },
+                        {
+                            "name" : "Health Records on iPhone",
+                            "path" : ""
+                        }
+                    ]
+                },
+                {
+                    "key" : "government",
+                    "label" : "For Government",
+                    "data" : [
+                        {
+                            "name" : "Shop for Government",
+                            "path" : ""
+                        },
+                        {
+                            "name" : "Shop for Veterans and Military",
+                            "path" : ""
+                        }
+                    ]
+                },
+                {
+                    "key" : "responsibility",
+                    "label" : "Apple Values",
+                    "data" : [
+                        {
+                            "name" : "Accessibility",
+                            "path" : ""
+                        },
+                        {
+                            "name" : "Education",
+                            "path" : ""
+                        },
+                        {
+                            "name" : "Environment",
+                            "path" : ""
+                        },
+                        {
+                            "name" : "Inclusion and Diversity",
+                            "path" : ""
+                        },
+                        {
+                            "name" : "Privacy",
+                            "path" : ""
+                        },
+                        {
+                            "name" : "Racial Equity and Justice",
+                            "path" : ""
+                        },
+                        {
+                            "name" : "Supplier Responsibility",
+                            "path" : ""
+                        }
+                    ]
+                },
+                {
+                    "key" : "about",
+                    "label" : "About Apple",
+                    "data" : [
+                        {
+                            "name" : "Newsroom",
+                            "path" : ""
+                        },
+                        {
+                            "name" : "Apple Leadership",
+                            "path" : ""
+                        },
+                        {
+                            "name" : "Career Opportunities",
+                            "path" : ""
+                        },
+                        {
+                            "name" : "Investors",
+                            "path" : ""
+                        },
+                        {
+                            "name" : "Ethics & Compliance",
+                            "path" : ""
+                        },
+                        {
+                            "name" : "Events",
+                            "path" : ""
+                        },
+                        {
+                            "name" : "Contact Apple",
+                            "path" : ""
+                        }
+                    ]
+            }
+        ]
+    
+}

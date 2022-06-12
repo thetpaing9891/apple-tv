@@ -1,0 +1,32 @@
+[
+    {
+        "comingSoon" : "",
+        "title" : "Friday Night Baseball",
+        "image" : "https://www.apple.com/v/apple-tv-plus/aa/images/overview/fnb_hero__d917caj985km_large_2x.jpg",
+        "description" : "Live MLB games, every Friday."
+    },
+    {
+        "comingSoon" : "New Episodes Fridays",
+        "title" : "For All Mankind",
+        "image" : "https://is1-ssl.mzstatic.com/image/thumb/Features122/v4/58/8d/00/588d0004-27ca-2eea-c54f-4198750f9a9c/923c8dcf-773f-4ee0-a5ed-028f98a4a250.png/1920x800sr.jpg",
+        "description" : "The race continues."
+    },
+    {
+        "comingSoon" : "New Episodes Fridays",
+        "title" : "Physical",
+        "image" : "https://is3-ssl.mzstatic.com/image/thumb/Features112/v4/1f/39/b4/1f39b4ec-c29e-2fe6-58a1-bd60bd0d03c6/f3538258-74f7-467a-bd2d-3cc394f2108d.png/1920x800sr.jpg",
+        "description" : "Work out your issues."
+    },
+    {
+        "comingSoon" : "New Episodes Fridays",
+        "title" : "Tehran",
+        "image" : "https://is4-ssl.mzstatic.com/image/thumb/Features116/v4/02/63/2d/02632de2-f6a2-c488-d2c8-d8e3b66abc3e/92bc864c-c935-4e80-a540-f8936f231182.png/1920x800sr.jpg",
+        "description" : "Trust no one."
+    },
+    {
+        "comingSoon" : "Coming 6.17",
+        "title" : "Cha Cha Real Smooth",
+        "image" : "https://is1-ssl.mzstatic.com/image/thumb/Features122/v4/9c/d1/9e/9cd19ebc-d171-7674-235f-8d507f0b5670/b413b01b-c0b5-4355-92aa-b85f358235a7.png/1920x800sr.jpg",
+        "description" : "Falling in love is easy. Growing up is hard."
+    }
+]

@@ -1,0 +1,2318 @@
+@font-face {
+	font-family: 'Apple Legacy Chevron';
+	font-style: normal;
+	font-weight: 100;
+	src: local(""), url("../assets/fonts/legacy-appleicons_ultralight.woff") format("woff"), url("../assets/fonts/legacy-appleicons_ultralight.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Apple Icons 100";
+	src: url("../assets/fonts/legacy-appleicons_ultralight.eot");
+}
+@font-face {
+	font-family: 'Apple Legacy Chevron';
+	font-style: normal;
+	font-weight: 200;
+	src: local(""), url("../assets/fonts/legacy-appleicons_thin.woff") format("woff"), url("../assets/fonts/legacy-appleicons_thin.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Apple Icons 200";
+	src: url("../assets/fonts/legacy-appleicons_thin.eot");
+}
+@font-face {
+	font-family: 'Apple Legacy Chevron';
+	font-style: normal;
+	font-weight: 300;
+	src: local(""), url("../assets/fonts/legacy-appleicons_thin.woff") format("woff"), url("../assets/fonts/legacy-appleicons_thin.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Apple Icons 300";
+	src: url("../assets/fonts/legacy-appleicons_thin.eot");
+}
+@font-face {
+	font-family: 'Apple Legacy Chevron';
+	font-style: normal;
+	font-weight: 400;
+	src: local(""), url("../assets/fonts/legacy-appleicons_text.woff") format("woff"), url("../assets/fonts/legacy-appleicons_text.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Apple Icons 400";
+	src: url("../assets/fonts/legacy-appleicons_text.eot");
+}
+@font-face {
+	font-family: 'Apple Legacy Chevron';
+	font-style: normal;
+	font-weight: 500;
+	src: local(""), url("../assets/fonts/legacy-appleicons_text.woff") format("woff"), url("../assets/fonts/legacy-appleicons_text.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Apple Icons 500";
+	src: url("../assets/fonts/legacy-appleicons_text.eot");
+}
+@font-face {
+	font-family: 'Apple Legacy Chevron';
+	font-style: normal;
+	font-weight: 600;
+	src: local(""), url("../assets/fonts/legacy-appleicons_text.woff") format("woff"), url("../assets/fonts/legacy-appleicons_text.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Apple Icons 600";
+	src: url("../assets/fonts/legacy-appleicons_text.eot");
+}
+@font-face {
+	font-family: 'Apple Legacy Chevron';
+	font-style: normal;
+	font-weight: 700;
+	src: local(""), url("../assets/fonts/legacy-appleicons_text.woff") format("woff"), url("../assets/fonts/legacy-appleicons_text.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Apple Icons 700";
+	src: url("../assets/fonts/legacy-appleicons_text.eot");
+}
+@font-face {
+	font-family: 'Apple Legacy Chevron';
+	font-style: normal;
+	font-weight: 800;
+	src: local(""), url("../assets/fonts/legacy-appleicons_text.woff") format("woff"), url("../assets/fonts/legacy-appleicons_text.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Apple Icons 800";
+	src: url("../assets/fonts/legacy-appleicons_text.eot");
+}
+@font-face {
+	font-family: 'Apple Legacy Chevron';
+	font-style: normal;
+	font-weight: 900;
+	src: local(""), url("../assets/fonts/legacy-appleicons_text.woff") format("woff"), url("../assets/fonts/legacy-appleicons_text.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Apple Icons 900";
+	src: url("../assets/fonts/legacy-appleicons_text.eot");
+}
+@font-face {
+	font-family: 'SF Pro Text';
+	src: url('../assets/fonts/sf-pro-text_regular.eot');
+/* IE9 Compat Modes */
+/* IE6-IE8 */
+/* Super Modern Browsers */
+/* Pretty Modern Browsers */
+/* Safari, Android, iOS */
+	src: url('../assets/fonts/sf-pro-text_regular.eot?#iefix') format('embedded-opentype'),  url('../assets/fonts/sf-pro-text_regular.woff2') format('woff2'),  url('../assets/fonts/sf-pro-text_regular.woff') format('woff'),  url('../assets/fonts/sf-pro-text_regular.ttf') format('truetype'),  url('../assets/fonts/sf-pro-text_regular.svg#svgFontName') format('svg');
+/* Legacy iOS */
+}
+@font-face {
+	font-family: 'SF Pro Icons';
+	src: url('../assets/fonts/sf-pro-icons_regular.eot');
+/* IE9 Compat Modes */
+/* IE6-IE8 */
+/* Super Modern Browsers */
+/* Pretty Modern Browsers */
+/* Safari, Android, iOS */
+	src: url('../assets/fonts/sf-pro-icons_regular.eot?#iefix') format('embedded-opentype'),  url('../assets/fonts/sf-pro-icons_regular.woff2') format('woff2'),  url('../assets/fonts/sf-pro-icons_regular.woff') format('woff'),  url('../assets/fonts/sf-pro-icons_regular.ttf') format('truetype'),  url('../assets/fonts/sf-pro-icons_regular.svg#svgFontName') format('svg');
+/* Legacy iOS */
+}
+#ac-globalfooter {
+	font-weight: normal;
+	-webkit-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+	-webkit-box-sizing: content-box;
+	box-sizing: content-box;
+	margin: 0;
+	padding: 0;
+	pointer-events: auto;
+	letter-spacing: normal;
+	font-synthesis: none;
+	-moz-font-feature-settings: 'kern';
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	direction: ltr;
+	text-align: left;
+	font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	--footer-background: #f5f5f7;
+	--footer-border-color: #d2d2d7;
+	--footer-text-color: #6e6e73;
+	--footer-link-color: #424245;
+	--footer-directory-title-color: #1d1d1f;
+	--footer-directory-title-color-hover: #000;
+	font-size: 12px;
+	line-height: 1.33337;
+	font-weight: 400;
+	letter-spacing: -.01em;
+	font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	background: var(--footer-background);
+	color: var(--footer-text-color);
+	min-width: 1024px;
+	overflow: hidden;
+	position: relative;
+	z-index: 1;
+	&:before {
+		-webkit-box-sizing: content-box;
+		box-sizing: content-box;
+		margin: 0;
+		padding: 0;
+		pointer-events: auto;
+		letter-spacing: normal;
+	}
+	&:after {
+		-webkit-box-sizing: content-box;
+		box-sizing: content-box;
+		margin: 0;
+		padding: 0;
+		pointer-events: auto;
+		letter-spacing: normal;
+	}
+	* {
+		-webkit-box-sizing: content-box;
+		box-sizing: content-box;
+		margin: 0;
+		padding: 0;
+		pointer-events: auto;
+		letter-spacing: normal;
+		font-size: 1em;
+		font-family: inherit;
+		font-weight: inherit;
+		line-height: inherit;
+		text-align: inherit;
+		&:before {
+			-webkit-box-sizing: content-box;
+			box-sizing: content-box;
+			margin: 0;
+			padding: 0;
+			pointer-events: auto;
+			letter-spacing: normal;
+			font-size: 1em;
+			font-family: inherit;
+			font-weight: inherit;
+			line-height: inherit;
+			text-align: inherit;
+		}
+		&:after {
+			-webkit-box-sizing: content-box;
+			box-sizing: content-box;
+			margin: 0;
+			padding: 0;
+			pointer-events: auto;
+			letter-spacing: normal;
+			font-size: 1em;
+			font-family: inherit;
+			font-weight: inherit;
+			line-height: inherit;
+			text-align: inherit;
+		}
+	}
+	article {
+		display: block;
+	}
+	aside {
+		display: block;
+	}
+	details {
+		display: block;
+	}
+	figcaption {
+		display: block;
+	}
+	figure {
+		display: block;
+	}
+	footer {
+		display: block;
+	}
+	header {
+		display: block;
+	}
+	nav {
+		display: block;
+	}
+	section {
+		display: block;
+	}
+	img {
+		border: 0;
+		vertical-align: middle;
+	}
+	ul {
+		list-style: none;
+	}
+	input {
+		font-synthesis: none;
+		-moz-font-feature-settings: 'kern';
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+		direction: ltr;
+		text-align: left;
+		font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	}
+	textarea {
+		font-synthesis: none;
+		-moz-font-feature-settings: 'kern';
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+		direction: ltr;
+		text-align: left;
+		font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	}
+	select {
+		font-synthesis: none;
+		-moz-font-feature-settings: 'kern';
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+		direction: ltr;
+		text-align: left;
+		font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	}
+	button {
+		font-synthesis: none;
+		-moz-font-feature-settings: 'kern';
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+		direction: ltr;
+		text-align: left;
+		font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	}
+	sup {
+		font-size: 0.6em;
+		vertical-align: top;
+		position: relative;
+		bottom: -0.2em;
+		a {
+			vertical-align: inherit;
+			color: inherit;
+			&:hover {
+				color: #06c;
+				text-decoration: none;
+			}
+		}
+	}
+	sub {
+		font-size: smaller;
+		vertical-align: sub;
+		line-height: 1;
+	}
+	.ac-gf-icon {
+		&::before {
+			font-family: "SF Pro Icons", "Apple Legacy Chevron";
+			color: inherit;
+			display: inline-block;
+			font-style: normal;
+			font-weight: inherit;
+			font-size: inherit;
+			line-height: 1;
+			text-decoration: underline;
+			position: relative;
+			z-index: 1;
+			alt: '';
+			text-decoration: none;
+			display: none;
+		}
+		&::after {
+			font-family: "SF Pro Icons", "Apple Legacy Chevron";
+			color: inherit;
+			display: inline-block;
+			font-style: normal;
+			font-weight: inherit;
+			font-size: inherit;
+			line-height: 1;
+			text-decoration: underline;
+			position: relative;
+			z-index: 1;
+			alt: '';
+			text-decoration: none;
+		}
+	}
+	.ac-gf-more {
+		&::before {
+			font-family: "SF Pro Icons", "Apple Legacy Chevron";
+			color: inherit;
+			display: inline-block;
+			font-style: normal;
+			font-weight: inherit;
+			font-size: inherit;
+			line-height: 1;
+			text-decoration: underline;
+			position: relative;
+			z-index: 1;
+			alt: '';
+			text-decoration: none;
+			display: none;
+			content: "";
+		}
+		&::after {
+			font-family: "SF Pro Icons", "Apple Legacy Chevron";
+			color: inherit;
+			display: inline-block;
+			font-style: normal;
+			font-weight: inherit;
+			font-size: inherit;
+			line-height: 1;
+			text-decoration: underline;
+			position: relative;
+			z-index: 1;
+			alt: '';
+			text-decoration: none;
+			padding-left: .3em;
+			top: 0;
+			content: "";
+		}
+	}
+	.ac-gf-icon-after {
+		&::after {
+			padding-left: .3em;
+			top: 0;
+		}
+	}
+	.ac-gf-icon-before {
+		&::before {
+			padding-right: .3em;
+			display: inline-block;
+			top: 0;
+		}
+		&::after {
+			display: none;
+		}
+	}
+	.ac-gf-icon-before.ac-gf-icon-apple {
+		&::before {
+			padding-right: 0;
+			display: inline-block;
+			top: 0;
+		}
+		&::after {
+			display: none;
+		}
+	}
+	.ac-gf-icon-apple {
+		&::before {
+			content: "";
+		}
+		&::after {
+			content: "";
+		}
+	}
+	.ac-gf-icon-chevrondown {
+		&::before {
+			content: "";
+		}
+		&::after {
+			content: "";
+		}
+	}
+	.ac-gf-icon-chevrondowncircle {
+		&::before {
+			content: "";
+		}
+		&::after {
+			content: "";
+		}
+	}
+	.ac-gf-icon-chevronleft {
+		&::before {
+			content: "";
+		}
+		&::after {
+			content: "";
+		}
+	}
+	.ac-gf-icon-chevronleftcircle {
+		&::before {
+			content: "";
+		}
+		&::after {
+			content: "";
+		}
+	}
+	.ac-gf-icon-chevronright {
+		&::before {
+			content: "";
+		}
+		&::after {
+			content: "";
+		}
+	}
+	.ac-gf-icon-chevronrightcircle {
+		&::before {
+			content: "";
+		}
+		&::after {
+			content: "";
+		}
+	}
+	.ac-gf-icon-chevronup {
+		&::before {
+			content: "";
+		}
+		&::after {
+			content: "";
+		}
+	}
+	.ac-gf-icon-chevronupcircle {
+		&::before {
+			content: "";
+		}
+		&::after {
+			content: "";
+		}
+	}
+	.ac-gf-icon-downloadcircle {
+		&::before {
+			content: "";
+		}
+		&::after {
+			content: "";
+		}
+	}
+	.ac-gf-icon-arrowupcircle {
+		&::before {
+			content: "􀁶";
+		}
+		&::after {
+			content: "􀁶";
+		}
+	}
+	.ac-gf-icon-external {
+		&::before {
+			content: "";
+		}
+		&::after {
+			content: "";
+		}
+	}
+	.ac-gf-icon-share {
+		&::before {
+			content: "";
+		}
+		&::after {
+			content: "";
+		}
+	}
+	.ac-gf-icon-search {
+		&::before {
+			content: "";
+		}
+		&::after {
+			content: "";
+		}
+	}
+	.ac-gf-icon-arkit {
+		&::before {
+			content: "";
+		}
+		&::after {
+			content: "";
+		}
+	}
+	.ac-gf-icon-pausecircle {
+		&::before {
+			content: "";
+		}
+		&::after {
+			content: "";
+		}
+	}
+	.ac-gf-icon-pausesolid {
+		&::before {
+			content: "";
+		}
+		&::after {
+			content: "";
+		}
+	}
+	.ac-gf-icon-playcircle {
+		&::before {
+			content: "";
+		}
+		&::after {
+			content: "";
+		}
+	}
+	.ac-gf-icon-playsolid {
+		&::before {
+			content: "";
+		}
+		&::after {
+			content: "";
+		}
+	}
+	.ac-gf-icon-replay {
+		&::before {
+			content: "";
+		}
+		&::after {
+			content: "";
+		}
+	}
+	.ac-gf-icon-stopcircle {
+		&::before {
+			content: "";
+		}
+		&::after {
+			content: "";
+		}
+	}
+	.ac-gf-icon-stopsolid {
+		&::before {
+			content: "";
+		}
+		&::after {
+			content: "";
+		}
+	}
+	.ac-gf-icon-circle {
+		&::before {
+			content: "";
+		}
+		&::after {
+			content: "";
+		}
+	}
+	.ac-gf-icon-check {
+		&::before {
+			content: "";
+		}
+		&::after {
+			content: "";
+		}
+	}
+	.ac-gf-icon-checkcircle {
+		&::before {
+			content: "";
+		}
+		&::after {
+			content: "";
+		}
+	}
+	.ac-gf-icon-checksolid {
+		&::before {
+			content: "";
+		}
+		&::after {
+			content: "";
+		}
+	}
+	.ac-gf-icon-reset {
+		&::before {
+			content: "";
+		}
+		&::after {
+			content: "";
+		}
+	}
+	.ac-gf-icon-resetcircle {
+		&::before {
+			content: "";
+		}
+		&::after {
+			content: "";
+		}
+	}
+	.ac-gf-icon-resetsolid {
+		&::before {
+			content: "";
+		}
+		&::after {
+			content: "";
+		}
+	}
+	.ac-gf-icon-exclamation {
+		&::before {
+			content: "";
+		}
+		&::after {
+			content: "";
+		}
+	}
+	.ac-gf-icon-exclamationcircle {
+		&::before {
+			content: "";
+		}
+		&::after {
+			content: "";
+		}
+	}
+	.ac-gf-icon-exclamationsolid {
+		&::before {
+			content: "";
+		}
+		&::after {
+			content: "";
+		}
+	}
+	.ac-gf-icon-exclamationtriangle {
+		&::before {
+			content: "";
+		}
+		&::after {
+			content: "";
+		}
+	}
+	.ac-gf-icon-exclamationtrianglesolid {
+		&::before {
+			content: "";
+		}
+		&::after {
+			content: "";
+		}
+	}
+	.ac-gf-icon-infocircle {
+		&::before {
+			content: "";
+		}
+		&::after {
+			content: "";
+		}
+	}
+	.ac-gf-icon-infosolid {
+		&::before {
+			content: "";
+		}
+		&::after {
+			content: "";
+		}
+	}
+	.ac-gf-icon-question {
+		&::before {
+			content: "";
+		}
+		&::after {
+			content: "";
+		}
+	}
+	.ac-gf-icon-questioncircle {
+		&::before {
+			content: "";
+		}
+		&::after {
+			content: "";
+		}
+	}
+	.ac-gf-icon-questionsolid {
+		&::before {
+			content: "";
+		}
+		&::after {
+			content: "";
+		}
+	}
+	.ac-gf-icon-plus {
+		&::before {
+			content: "";
+		}
+		&::after {
+			content: "";
+		}
+	}
+	.ac-gf-icon-pluscircle {
+		&::before {
+			content: "";
+		}
+		&::after {
+			content: "";
+		}
+	}
+	.ac-gf-icon-plussolid {
+		&::before {
+			content: "";
+		}
+		&::after {
+			content: "";
+		}
+	}
+	.ac-gf-icon-minus {
+		&::before {
+			content: "";
+		}
+		&::after {
+			content: "";
+		}
+	}
+	.ac-gf-icon-minuscircle {
+		&::before {
+			content: "";
+		}
+		&::after {
+			content: "";
+		}
+	}
+	.ac-gf-icon-minussolid {
+		&::before {
+			content: "";
+		}
+		&::after {
+			content: "";
+		}
+	}
+	.ac-gf-icon-1circle {
+		&::before {
+			content: "";
+		}
+		&::after {
+			content: "";
+		}
+	}
+	.ac-gf-icon-2circle {
+		&::before {
+			content: "";
+		}
+		&::after {
+			content: "";
+		}
+	}
+	.ac-gf-icon-3circle {
+		&::before {
+			content: "";
+		}
+		&::after {
+			content: "";
+		}
+	}
+	.ac-gf-icon-4circle {
+		&::before {
+			content: "";
+		}
+		&::after {
+			content: "";
+		}
+	}
+	.ac-gf-icon-5circle {
+		&::before {
+			content: "";
+		}
+		&::after {
+			content: "";
+		}
+	}
+	.ac-gf-icon-6circle {
+		&::before {
+			content: "";
+		}
+		&::after {
+			content: "";
+		}
+	}
+	.ac-gf-icon-7circle {
+		&::before {
+			content: "";
+		}
+		&::after {
+			content: "";
+		}
+	}
+	.ac-gf-icon-8circle {
+		&::before {
+			content: "";
+		}
+		&::after {
+			content: "";
+		}
+	}
+	.ac-gf-icon-9circle {
+		&::before {
+			content: "";
+		}
+		&::after {
+			content: "";
+		}
+	}
+	.ac-gf-icon-10circle {
+		&::before {
+			content: "";
+		}
+		&::after {
+			content: "";
+		}
+	}
+	.ac-gf-icon-11circle {
+		&::before {
+			content: "";
+		}
+		&::after {
+			content: "";
+		}
+	}
+	.ac-gf-icon-12circle {
+		&::before {
+			content: "";
+		}
+		&::after {
+			content: "";
+		}
+	}
+	.ac-gf-icon-13circle {
+		&::before {
+			content: "";
+		}
+		&::after {
+			content: "";
+		}
+	}
+	.ac-gf-icon-14circle {
+		&::before {
+			content: "";
+		}
+		&::after {
+			content: "";
+		}
+	}
+	.ac-gf-icon-15circle {
+		&::before {
+			content: "";
+		}
+		&::after {
+			content: "";
+		}
+	}
+	.ac-gf-icon-16circle {
+		&::before {
+			content: "";
+		}
+		&::after {
+			content: "";
+		}
+	}
+	.ac-gf-icon-17circle {
+		&::before {
+			content: "";
+		}
+		&::after {
+			content: "";
+		}
+	}
+	.ac-gf-icon-18circle {
+		&::before {
+			content: "";
+		}
+		&::after {
+			content: "";
+		}
+	}
+	.ac-gf-icon-19circle {
+		&::before {
+			content: "";
+		}
+		&::after {
+			content: "";
+		}
+	}
+	.ac-gf-icon-20circle {
+		&::before {
+			content: "";
+		}
+		&::after {
+			content: "";
+		}
+	}
+	.ac-gf-icon-close {
+		&::before {
+			content: "";
+		}
+		&::after {
+			content: "";
+		}
+	}
+	.ac-gf-icon-closecompact {
+		&::before {
+			content: "";
+		}
+		&::after {
+			content: "";
+		}
+	}
+	.ac-gf-icon-paddleleft {
+		&::before {
+			content: "";
+		}
+		&::after {
+			content: "";
+		}
+	}
+	.ac-gf-icon-paddleleftcompact {
+		&::before {
+			content: "";
+		}
+		&::after {
+			content: "";
+		}
+	}
+	.ac-gf-icon-paddleright {
+		&::before {
+			content: "";
+		}
+		&::after {
+			content: "";
+		}
+	}
+	.ac-gf-icon-paddlerightcompact {
+		&::before {
+			content: "";
+		}
+		&::after {
+			content: "";
+		}
+	}
+	.ac-gf-icon-paddleup {
+		&::before {
+			content: "";
+		}
+		&::after {
+			content: "";
+		}
+	}
+	.ac-gf-icon-paddleupcompact {
+		&::before {
+			content: "";
+		}
+		&::after {
+			content: "";
+		}
+	}
+	.ac-gf-icon-paddledown {
+		&::before {
+			content: "";
+		}
+		&::after {
+			content: "";
+		}
+	}
+	.ac-gf-icon-paddledowncompact {
+		&::before {
+			content: "";
+		}
+		&::after {
+			content: "";
+		}
+	}
+	.ac-gf-icon-thumbnailreplay {
+		&::before {
+			content: "";
+		}
+		&::after {
+			content: "";
+		}
+	}
+	.ac-gf-icon-thumbnailpause {
+		&::before {
+			content: "";
+		}
+		&::after {
+			content: "";
+		}
+	}
+	.ac-gf-icon-thumbnailplay {
+		&::before {
+			content: "";
+		}
+		&::after {
+			content: "";
+		}
+	}
+	.ac-gf-icon-externalrtl {
+		&::before {
+			content: "";
+		}
+		&::after {
+			content: "";
+		}
+	}
+	.ac-gf-icon-questionrtl {
+		&::before {
+			content: "";
+		}
+		&::after {
+			content: "";
+		}
+	}
+	.ac-gf-icon-questioncirclertl {
+		&::before {
+			content: "";
+		}
+		&::after {
+			content: "";
+		}
+	}
+	.ac-gf-icon-questionsolidrtl {
+		&::before {
+			content: "";
+		}
+		&::after {
+			content: "";
+		}
+	}
+	.ac-gf-more-block {
+		margin-top: .5em;
+	}
+	.ac-gf-icon-wrapper {
+		.ac-gf-icon {
+			display: inline;
+			position: static;
+		}
+		.ac-gf-more {
+			&::after {
+				display: inline;
+				position: static;
+			}
+		}
+		.ac-gf-icon-before {
+			&::before {
+				display: inline;
+				position: static;
+			}
+		}
+		.ac-gf-icon-after {
+			&::after {
+				display: inline;
+				position: static;
+			}
+		}
+	}
+	a.ac-gf-icon-wrapper {
+		text-decoration: none;
+		&:hover {
+			.ac-gf-icon-copy {
+				text-decoration: underline;
+			}
+		}
+	}
+	a.ac-gf-block {
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+		display: block;
+		cursor: pointer;
+		text-decoration: none;
+		color: inherit;
+		color: inherit;
+		text-decoration: none;
+		&::before {
+			content: ' ';
+			display: table;
+		}
+		&::after {
+			content: ' ';
+			display: table;
+			clear: both;
+		}
+		&:hover {
+			text-decoration: none;
+			color: inherit;
+			.ac-gf-block-link {
+				text-decoration: underline;
+			}
+		}
+		.ac-gf-block-link {
+			color: #06c;
+		}
+	}
+	.ac-gf-block-link {
+		cursor: pointer;
+	}
+	a.ac-gf-block-inline {
+		display: inline-block;
+	}
+	.ac-gf-buystrip {
+		--buystrip-background: #f5f5f7;
+		--buystrip-border-color: #d2d2d7;
+		--buystrip-text-color: #1d1d1f;
+		--buystrip-link-color: #06c;
+		color: var(--buystrip-text-color);
+		text-align: center;
+	}
+	.ac-gf-buystrip-background {
+		background: var(--buystrip-background);
+	}
+	.ac-gf-buystrip-info {
+		font-size: 14px;
+		line-height: 1.42859;
+		font-weight: 400;
+		letter-spacing: -.016em;
+		font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+		padding-bottom: 56px;
+		text-align: center;
+		border-bottom: 1px solid var(--buystrip-border-color);
+	}
+	.ac-gf-buystrip-info-keyline {
+		border-bottom: 1px solid var(--buystrip-border-color);
+	}
+	.ac-gf-buystrip-info-column {
+		-webkit-box-flex: 1;
+		-ms-flex: 1 25%;
+		flex: 1 25%;
+		max-width: 410px;
+		&:first-child {
+			&:nth-last-child(2) {
+				-ms-flex-preferred-size: 50%;
+				flex-basis: 50%;
+			}
+		}
+		&:last-child {
+			&:nth-child(2) {
+				-ms-flex-preferred-size: 50%;
+				flex-basis: 50%;
+			}
+		}
+	}
+	.ac-gf-buystrip-info-content {
+		margin: 0 auto;
+		padding-top: 56px;
+		position: relative;
+		text-align: center;
+		width: 216px;
+		z-index: 1;
+	}
+	.ac-gf-buystrip-info-icon {
+		margin: 0 auto;
+	}
+	.ac-gf-buystrip-info-icon-appletvplus {
+		width: 100%;
+		height: 56px;
+		background-size: 100% 56px;
+		background-repeat: no-repeat;
+		// background-image: url("../fonts/appletvplus-icon_large.svg");
+	}
+	.ac-gf-buystrip-info-icon-asa {
+		width: 100%;
+		height: 56px;
+		background-size: 100% 56px;
+		background-repeat: no-repeat;
+		// background-image: url("../fonts/asa-icon_large.svg");
+	}
+	.ac-gf-buystrip-info-icon-bag {
+		width: 100%;
+		height: 56px;
+		background-size: 100% 56px;
+		background-repeat: no-repeat;
+		// background-image: url("../fonts/bag-icon_large.svg");
+	}
+	.ac-gf-buystrip-info-icon-call {
+		width: 100%;
+		height: 56px;
+		background-size: 100% 56px;
+		background-repeat: no-repeat;
+		// background-image: url("../fonts/call-icon_large.svg");
+	}
+	.ac-gf-buystrip-info-icon-engraving {
+		width: 100%;
+		height: 56px;
+		background-size: 100% 56px;
+		background-repeat: no-repeat;
+		// background-image: url("../fonts/engraving-icon_large.svg");
+	}
+	.ac-gf-buystrip-info-icon-financing {
+		width: 100%;
+		height: 56px;
+		background-size: 100% 56px;
+		background-repeat: no-repeat;
+		// background-image: url("../fonts/financing-icon_large.svg");
+	}
+	.ac-gf-buystrip-info-icon-giftwrap {
+		width: 100%;
+		height: 56px;
+		background-size: 100% 56px;
+		background-repeat: no-repeat;
+		// background-image: url("../fonts/giftwrap-icon_large.svg");
+	}
+	.ac-gf-buystrip-info-icon-help {
+		width: 100%;
+		height: 56px;
+		background-size: 100% 56px;
+		background-repeat: no-repeat;
+		// background-image: url("../fonts/help-icon_large.svg");
+	}
+	.ac-gf-buystrip-info-icon-homekit {
+		width: 100%;
+		height: 56px;
+		background-size: 100% 56px;
+		background-repeat: no-repeat;
+		// background-image: url("../fonts/homekit-icon_large.svg");
+	}
+	.ac-gf-buystrip-info-icon-learning {
+		width: 100%;
+		height: 56px;
+		background-size: 100% 56px;
+		background-repeat: no-repeat;
+		// background-image: url("../fonts/learning-icon_large.svg");
+	}
+	.ac-gf-buystrip-info-icon-personal_setup {
+		width: 100%;
+		height: 56px;
+		background-size: 100% 56px;
+		background-repeat: no-repeat;
+		// background-image: url("../fonts/personal_setup-icon_large.svg");
+	}
+	.ac-gf-buystrip-info-icon-retail {
+		width: 100%;
+		height: 56px;
+		background-size: 100% 56px;
+		background-repeat: no-repeat;
+		// background-image: url("../fonts/retail-icon_large.svg");
+	}
+	.ac-gf-buystrip-info-icon-shipping {
+		width: 100%;
+		height: 56px;
+		background-size: 100% 56px;
+		background-repeat: no-repeat;
+		// background-image: url("../fonts/shipping-icon_large.svg");
+	}
+	.ac-gf-buystrip-info-icon-thirdparty_retail {
+		width: 100%;
+		height: 56px;
+		background-size: 100% 56px;
+		background-repeat: no-repeat;
+		// background-image: url("../fonts/thirdparty_retail-icon_large.svg");
+	}
+	.ac-gf-buystrip-info-title {
+		margin: 0;
+		font-size: 19px;
+		line-height: 1.21053;
+		font-weight: 600;
+		letter-spacing: .012em;
+		font-family: "SF Pro Display", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+		margin-top: .525em;
+	}
+	.ac-gf-buystrip-info-copy {
+		margin: 0;
+		display: block;
+		margin-top: 0.4em;
+	}
+	.ac-gf-buystrip-info-caption {
+		margin: 0;
+		display: block;
+	}
+	.ac-gf-buystrip-info-cta {
+		margin: 0;
+		color: var(--buystrip-link-color);
+		margin-top: 0.8em;
+		display: block;
+	}
+	.ac-gf-buystrip-info-copy+.ac-gf-buystrip-info-column-copy {
+		margin-top: 0.8em;
+	}
+	.ac-gf-buystrip-elevated {
+		.ac-gf-buystrip-info {
+			font-size: 19px;
+			line-height: 1.4211;
+			font-weight: 400;
+			letter-spacing: .012em;
+			font-family: "SF Pro Display", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+		}
+		.ac-gf-buystrip-info-column {
+			&:first-child {
+				&:nth-last-child(4) {
+					-ms-flex-preferred-size: 50%;
+					flex-basis: 50%;
+				}
+				&:nth-last-child(4)~.ac-gf-buystrip-info-column {
+					-ms-flex-preferred-size: 50%;
+					flex-basis: 50%;
+				}
+			}
+		}
+		.ac-gf-buystrip-info-content {
+			width: 294px;
+			padding-left: 8px;
+			padding-right: 8px;
+		}
+		.ac-gf-buystrip-info-title {
+			font-size: 21px;
+			line-height: 1.19048;
+			font-weight: 600;
+			letter-spacing: .011em;
+			font-family: "SF Pro Display", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+			margin-top: .53em;
+		}
+	}
+	.ac-gf-buystrip-hero {
+		font-size: 17px;
+		line-height: 1.47059;
+		font-weight: 400;
+		letter-spacing: -.022em;
+		font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+		direction: rtl;
+		padding-top: 58px;
+		text-align: center;
+		padding-bottom: 4px;
+		&::before {
+			content: ' ';
+			display: table;
+		}
+		&::after {
+			content: ' ';
+			display: table;
+			clear: both;
+		}
+	}
+	.ac-gf-buystrip-hero-product {
+		margin-right: 34px;
+		display: inline-block;
+		vertical-align: middle;
+	}
+	.ac-gf-buystrip-hero-block {
+		direction: ltr;
+		display: inline-block;
+		text-align: left;
+		vertical-align: middle;
+	}
+	.ac-gf-buystrip-hero-title {
+		margin: 0;
+		font-size: 32px;
+		line-height: 1.125;
+		font-weight: 600;
+		letter-spacing: .004em;
+		font-family: "SF Pro Display", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+		margin-bottom: 3px;
+	}
+	.ac-gf-buystrip-hero-copy {
+		margin: 0;
+		font-size: 19px;
+		line-height: 1.21053;
+		font-weight: 400;
+		letter-spacing: .012em;
+		font-family: "SF Pro Display", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	}
+	.ac-gf-buystrip-hero-cta {
+		margin: 0;
+		font-size: 17px;
+		line-height: 1.47059;
+		font-weight: 400;
+		letter-spacing: -.022em;
+		font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+		margin-top: 0.8em;
+	}
+	h1 {
+		color: var(--footer-directory-title-color);
+	}
+	h2 {
+		color: var(--footer-directory-title-color);
+	}
+	h3 {
+		color: var(--footer-directory-title-color);
+	}
+	h4 {
+		color: var(--footer-directory-title-color);
+	}
+	h5 {
+		color: var(--footer-directory-title-color);
+	}
+	h6 {
+		color: var(--footer-directory-title-color);
+	}
+	a {
+		color: var(--footer-link-color);
+		text-decoration: none;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+	.ac-gf-content {
+		margin: 0 auto;
+		max-width: 980px;
+		padding: 0 22px;
+		padding-left: max(22px, env(safe-area-inset-left));
+		padding-right: max(22px, env(safe-area-inset-right));
+	}
+	.ac-gf-label {
+		position: absolute;
+		clip: rect(1px, 1px, 1px, 1px);
+		-webkit-clip-path: inset(0px 0px 99.9% 99.9%);
+		clip-path: inset(0px 0px 99.9% 99.9%);
+		overflow: hidden;
+		height: 1px;
+		width: 1px;
+		padding: 0;
+		border: 0;
+	}
+	.ac-gf-sosumi {
+		border-bottom: 1px solid var(--footer-border-color);
+		padding: 17px 0 11px;
+		ol {
+			list-style-position: outside;
+			margin: 0;
+			padding: 0 17px;
+			li {
+				list-style-type: decimal;
+			}
+		}
+		ul {
+			list-style: none;
+			margin: 0;
+		}
+		li {
+			padding-bottom: 0.8em;
+			font-size: 12px;
+			line-height: 1.33337;
+			font-weight: 400;
+			letter-spacing: -.01em;
+			font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+		}
+		p {
+			font-size: 12px;
+			line-height: 1.33337;
+			font-weight: 400;
+			letter-spacing: -.01em;
+			font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+		}
+		small {
+			font-size: 1em;
+		}
+	}
+	.ac-gf-breadcrumbs {
+		padding: 17px 0;
+		position: relative;
+		z-index: 1;
+		color: var(--footer-link-color);
+		&::before {
+			content: ' ';
+			display: table;
+		}
+		&::after {
+			content: ' ';
+			display: table;
+			clear: both;
+		}
+	}
+	.ac-gf-breadcrumbs-home {
+		left: 0;
+		position: absolute;
+		z-index: 2;
+		top: 17px;
+		&:hover {
+			text-decoration: none;
+			.ac-gf-breadcrumbs-home-icon {
+				background-position-y: 100%;
+			}
+		}
+	}
+	.ac-gf-breadcrumbs-home-icon {
+		width: 14px;
+		height: 72px;
+		background-size: 14px 72px;
+		background-repeat: no-repeat;
+		background-image: url("../assets/images/icon_large_apple.svg");
+		height: 18px;
+		display: block;
+		position: relative;
+		z-index: 2;
+		color: transparent;
+		background-position-y: -36px;
+	}
+	.ac-gf-breadcrumbs-home-label {
+		position: absolute;
+		clip: rect(1px, 1px, 1px, 1px);
+		-webkit-clip-path: inset(0px 0px 99.9% 99.9%);
+		clip-path: inset(0px 0px 99.9% 99.9%);
+		overflow: hidden;
+		height: 1px;
+		width: 1px;
+		padding: 0;
+		border: 0;
+	}
+	.ac-gf-breadcrumbs-path {
+		font-size: 12px;
+		line-height: 1.33337;
+		font-weight: 400;
+		letter-spacing: -.01em;
+		font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+		position: relative;
+		z-index: 1;
+		&::before {
+			content: ' ';
+			display: table;
+		}
+		&::after {
+			content: ' ';
+			display: table;
+			clear: both;
+		}
+	}
+	.ac-gf-breadcrumbs-list {
+		max-height: 9999px;
+		padding-left: 25px;
+		direction: ltr;
+		list-style: none;
+	}
+	.ac-gf-breadcrumbs-item {
+		margin-right: 7px;
+		float: left;
+		padding: 3px 4px 3px 0;
+		max-width: 100%;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		&:before {
+			width: 8px;
+			height: 36px;
+			background-size: 8px 36px;
+			background-repeat: no-repeat;
+			background-image: url("../assets/images/icon_large.svg");
+			margin-right: 11px;
+			content: '';
+			display: inline-block;
+			vertical-align: middle;
+			margin-top: -1px;
+			height: 18px;
+			background-position-y: 100%;
+		}
+	}
+	.ac-gf-directory {
+		font-size: 12px;
+		line-height: 1.33337;
+		font-weight: 400;
+		letter-spacing: -.01em;
+		font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-wrap: nowrap;
+		flex-wrap: nowrap;
+		padding-top: 20px;
+		&:last-child {
+			padding-bottom: 28px;
+		}
+	}
+	.ac-gf-directory-column {
+		-ms-flex-preferred-size: 25%;
+		flex-basis: 25%;
+	}
+	.ac-gf-directory-column-section {
+		pointer-events: none;
+	}
+	.ac-gf-directory-column-section~.ac-gf-directory-column-section {
+		padding-top: 24px;
+	}
+	.ac-gf-directory-column-section-title {
+		font-size: 12px;
+		line-height: 1.33337;
+		font-weight: 400;
+		letter-spacing: -.01em;
+		font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+		font-weight: 600;
+		margin-right: 20px;
+		margin-bottom: .8em;
+	}
+	.ac-gf-directory-column-section-list {
+		margin-right: 20px;
+		list-style: none;
+		padding: 0;
+	}
+	.ac-gf-directory-column-section-item {
+		display: block;
+		pointer-events: auto;
+		margin-bottom: .8em;
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+	.ac-gf-directory-column-section-anchor {
+		right: 0;
+		cursor: default;
+		display: none;
+		position: absolute;
+		top: 0;
+		width: 1px;
+		height: 1px;
+		z-index: 10;
+		&:focus {
+			outline-offset: -6px;
+			width: 25px;
+			height: 38px;
+		}
+	}
+	.ac-gf-directory-column-section-anchor-close {
+		display: none;
+	}
+	.ac-gf-directory-column-section-anchor-label {
+		position: absolute;
+		clip: rect(1px, 1px, 1px, 1px);
+		-webkit-clip-path: inset(0px 0px 99.9% 99.9%);
+		clip-path: inset(0px 0px 99.9% 99.9%);
+		overflow: hidden;
+		height: 1px;
+		width: 1px;
+		padding: 0;
+		border: 0;
+	}
+	.ac-gf-directory-column-section-state {
+		display: none;
+	}
+	.ac-gf-breadcrumbs+.ac-gf-directory {
+		padding-top: 0;
+	}
+	.ac-gf-footer {
+		border-top: 1px solid var(--footer-border-color);
+		padding: 17px 0 21px;
+		padding-bottom: calc(21px + constant(safe-area-inset-bottom));
+	}
+	.ac-gf-footer-shop {
+		a {
+			color: var(--footer-mini-shop-link-color);
+			&:hover {
+				color: var(--footer-mini-shop-link-color);
+			}
+		}
+	}
+	.ac-gf-footer-locale {
+		float: right;
+		margin-top: 5px;
+		position: relative;
+		top: -3px;
+		z-index: 2;
+		white-space: nowrap;
+	}
+	.ac-gf-footer-locale-link {
+		border-left: 1px solid var(--footer-border-color);
+		margin-left: 7px;
+		padding-left: 11px;
+		display: inline;
+		&:first-child {
+			border-left: none;
+			margin-left: 0;
+			padding-left: 0;
+		}
+	}
+	.ac-gf-footer-legal {
+		position: relative;
+		top: -3px;
+		z-index: 1;
+		&::before {
+			content: ' ';
+			display: table;
+		}
+		&::after {
+			content: ' ';
+			display: table;
+			clear: both;
+		}
+	}
+	.ac-gf-footer-legal-copyright {
+		margin-right: 30px;
+		float: left;
+		margin-top: 5px;
+		max-height: 9999px;
+	}
+	.ac-gf-footer-legal-links {
+		margin-right: 30px;
+		float: left;
+		margin-top: 5px;
+		position: relative;
+		top: -5px;
+		z-index: 1;
+	}
+	.ac-gf-footer-legal-link {
+		border-right: 1px solid var(--footer-border-color);
+		margin-right: 7px;
+		padding-right: 10px;
+		display: inline-block;
+		margin-top: 5px;
+		white-space: nowrap;
+		&:last-child {
+			border: none;
+			margin: 0;
+			padding: 0;
+		}
+	}
+	.ac-gf-buystrip+.ac-gf-footer {
+		border-top: none;
+	}
+	.ac-gf-sosumi+.ac-gf-footer {
+		border-top: none;
+	}
+	.ac-gf-directory+.ac-gf-footer {
+		padding-top: 34px;
+		border-top: none;
+		.ac-gf-footer-shop {
+			margin-bottom: 7px;
+			padding-bottom: 8px;
+			border-bottom: 1px solid var(--footer-border-color);
+		}
+	}
+	.nowrap {
+		white-space: nowrap;
+	}
+}
+h1 {
+	#ac-globalfooter {
+		sup {
+			font-size: 0.4em;
+		}
+	}
+}
+h2 {
+	#ac-globalfooter {
+		sup {
+			font-size: 0.4em;
+		}
+	}
+}
+h3 {
+	#ac-globalfooter {
+		sup {
+			font-size: 0.4em;
+		}
+	}
+}
+.ac-theme-dark {
+	#ac-globalfooter {
+		.ac-gf-buystrip {
+			--buystrip-background: #1d1d1f;
+			--buystrip-border-color: #424245;
+			--buystrip-text-color: #f5f5f7;
+			--buystrip-link-color: #2997ff;
+		}
+		.ac-gf-buystrip-info-icon-appletvplus {
+			width: 100%;
+			height: 56px;
+			background-size: 100% 56px;
+			background-repeat: no-repeat;
+			// background-image: url("../fonts/appletvplus-icon_dark_large.svg");
+		}
+		.ac-gf-buystrip-info-icon-asa {
+			width: 100%;
+			height: 56px;
+			background-size: 100% 56px;
+			background-repeat: no-repeat;
+			// background-image: url("../fonts/asa-icon_dark_large.svg");
+		}
+		.ac-gf-buystrip-info-icon-bag {
+			width: 100%;
+			height: 56px;
+			background-size: 100% 56px;
+			background-repeat: no-repeat;
+			// background-image: url("../fonts/bag-icon_dark_large.svg");
+		}
+		.ac-gf-buystrip-info-icon-call {
+			width: 100%;
+			height: 56px;
+			background-size: 100% 56px;
+			background-repeat: no-repeat;
+			// background-image: url("../fonts/call-icon_dark_large.svg");
+		}
+		.ac-gf-buystrip-info-icon-engraving {
+			width: 100%;
+			height: 56px;
+			background-size: 100% 56px;
+			background-repeat: no-repeat;
+			// background-image: url("../fonts/engraving-icon_dark_large.svg");
+		}
+		.ac-gf-buystrip-info-icon-financing {
+			width: 100%;
+			height: 56px;
+			background-size: 100% 56px;
+			background-repeat: no-repeat;
+			// background-image: url("../fonts/financing-icon_dark_large.svg");
+		}
+		.ac-gf-buystrip-info-icon-giftwrap {
+			width: 100%;
+			height: 56px;
+			background-size: 100% 56px;
+			background-repeat: no-repeat;
+			// background-image: url("../fonts/giftwrap-icon_dark_large.svg");
+		}
+		.ac-gf-buystrip-info-icon-help {
+			width: 100%;
+			height: 56px;
+			background-size: 100% 56px;
+			background-repeat: no-repeat;
+			// background-image: url("../fonts/help-icon_dark_large.svg");
+		}
+		.ac-gf-buystrip-info-icon-homekit {
+			width: 100%;
+			height: 56px;
+			background-size: 100% 56px;
+			background-repeat: no-repeat;
+			// background-image: url("../fonts/homekit-icon_dark_large.svg");
+		}
+		.ac-gf-buystrip-info-icon-learning {
+			width: 100%;
+			height: 56px;
+			background-size: 100% 56px;
+			background-repeat: no-repeat;
+			// background-image: url("../fonts/learning-icon_dark_large.svg");
+		}
+		.ac-gf-buystrip-info-icon-personal_setup {
+			width: 100%;
+			height: 56px;
+			background-size: 100% 56px;
+			background-repeat: no-repeat;
+			// background-image: url("../fonts/personal_setup-icon_dark_large.svg");
+		}
+		.ac-gf-buystrip-info-icon-retail {
+			width: 100%;
+			height: 56px;
+			background-size: 100% 56px;
+			background-repeat: no-repeat;
+			// background-image: url("../fonts/retail-icon_dark_large.svg");
+		}
+		.ac-gf-buystrip-info-icon-shipping {
+			width: 100%;
+			height: 56px;
+			background-size: 100% 56px;
+			background-repeat: no-repeat;
+			// background-image: url("../fonts/shipping-icon_dark_large.svg");
+		}
+		.ac-gf-buystrip-info-icon-thirdparty_retail {
+			width: 100%;
+			height: 56px;
+			background-size: 100% 56px;
+			background-repeat: no-repeat;
+			// background-image: url("../fonts/thirdparty_retail-icon_dark_large.svg");
+		}
+		--footer-background: #1d1d1f;
+		--footer-border-color: #424245;
+		--footer-text-color: #86868b;
+		--footer-link-color: #d2d2d7;
+		--footer-directory-title-color: #f5f5f7;
+		--footer-directory-title-color-hover: #fff;
+		a.ac-gf-block {
+			color: inherit;
+			.ac-gf-block-link {
+				color: #2997ff;
+			}
+		}
+		.ac-gf-breadcrumbs-home-icon {
+			background-repeat: no-repeat;
+			// background-image: url("../fonts/apple-icon_dark_large.svg");
+		}
+		.ac-gf-breadcrumbs-item {
+			&:before {
+				background-repeat: no-repeat;
+				// background-image: url("../fonts/separator-icon_dark_large.svg");
+			}
+		}
+		.ac-gf-footer-shop {
+			--footer-mini-shop-link-color: #2997ff;
+		}
+	}
+	#ac-globalfooter.ac-gf-buystrip-background {
+		background: var(--buystrip-background);
+	}
+}
+#ac-globalfooter.ac-globalfooter-dark {
+	.ac-gf-buystrip {
+		--buystrip-background: #1d1d1f;
+		--buystrip-border-color: #424245;
+		--buystrip-text-color: #f5f5f7;
+		--buystrip-link-color: #2997ff;
+	}
+	.ac-gf-buystrip-info-icon-appletvplus {
+		width: 100%;
+		height: 56px;
+		background-size: 100% 56px;
+		background-repeat: no-repeat;
+		// background-image: url("../fonts/appletvplus-icon_dark_large.svg");
+	}
+	.ac-gf-buystrip-info-icon-asa {
+		width: 100%;
+		height: 56px;
+		background-size: 100% 56px;
+		background-repeat: no-repeat;
+		// background-image: url("../fonts/asa-icon_dark_large.svg");
+	}
+	.ac-gf-buystrip-info-icon-bag {
+		width: 100%;
+		height: 56px;
+		background-size: 100% 56px;
+		background-repeat: no-repeat;
+		// background-image: url("../fonts/bag-icon_dark_large.svg");
+	}
+	.ac-gf-buystrip-info-icon-call {
+		width: 100%;
+		height: 56px;
+		background-size: 100% 56px;
+		background-repeat: no-repeat;
+		// background-image: url("../fonts/call-icon_dark_large.svg");
+	}
+	.ac-gf-buystrip-info-icon-engraving {
+		width: 100%;
+		height: 56px;
+		background-size: 100% 56px;
+		background-repeat: no-repeat;
+		// background-image: url("../fonts/engraving-icon_dark_large.svg");
+	}
+	.ac-gf-buystrip-info-icon-financing {
+		width: 100%;
+		height: 56px;
+		background-size: 100% 56px;
+		background-repeat: no-repeat;
+		// background-image: url("../fonts/financing-icon_dark_large.svg");
+	}
+	.ac-gf-buystrip-info-icon-giftwrap {
+		width: 100%;
+		height: 56px;
+		background-size: 100% 56px;
+		background-repeat: no-repeat;
+		// background-image: url("../fonts/giftwrap-icon_dark_large.svg");
+	}
+	.ac-gf-buystrip-info-icon-help {
+		width: 100%;
+		height: 56px;
+		background-size: 100% 56px;
+		background-repeat: no-repeat;
+		// background-image: url("../fonts/help-icon_dark_large.svg");
+	}
+	.ac-gf-buystrip-info-icon-homekit {
+		width: 100%;
+		height: 56px;
+		background-size: 100% 56px;
+		background-repeat: no-repeat;
+		// background-image: url("../fonts/homekit-icon_dark_large.svg");
+	}
+	.ac-gf-buystrip-info-icon-learning {
+		width: 100%;
+		height: 56px;
+		background-size: 100% 56px;
+		background-repeat: no-repeat;
+		// background-image: url("../fonts/learning-icon_dark_large.svg");
+	}
+	.ac-gf-buystrip-info-icon-personal_setup {
+		width: 100%;
+		height: 56px;
+		background-size: 100% 56px;
+		background-repeat: no-repeat;
+		// background-image: url("../fonts/personal_setup-icon_dark_large.svg");
+	}
+	.ac-gf-buystrip-info-icon-retail {
+		width: 100%;
+		height: 56px;
+		background-size: 100% 56px;
+		background-repeat: no-repeat;
+		// background-image: url("../fonts/retail-icon_dark_large.svg");
+	}
+	.ac-gf-buystrip-info-icon-shipping {
+		width: 100%;
+		height: 56px;
+		background-size: 100% 56px;
+		background-repeat: no-repeat;
+		// background-image: url("../fonts/shipping-icon_dark_large.svg");
+	}
+	.ac-gf-buystrip-info-icon-thirdparty_retail {
+		width: 100%;
+		height: 56px;
+		background-size: 100% 56px;
+		background-repeat: no-repeat;
+		// background-image: url("../fonts/thirdparty_retail-icon_dark_large.svg");
+	}
+	--footer-background: #1d1d1f;
+	--footer-border-color: #424245;
+	--footer-text-color: #86868b;
+	--footer-link-color: #d2d2d7;
+	--footer-directory-title-color: #f5f5f7;
+	--footer-directory-title-color-hover: #fff;
+	a.ac-gf-block {
+		color: inherit;
+		.ac-gf-block-link {
+			color: #2997ff;
+		}
+	}
+	.ac-gf-breadcrumbs-home-icon {
+		background-repeat: no-repeat;
+		// background-image: url("../fonts/apple-icon_dark_large.svg");
+	}
+	.ac-gf-breadcrumbs-item {
+		&:before {
+			background-repeat: no-repeat;
+			// background-image: url("../fonts/separator-icon_dark_large.svg");
+		}
+	}
+	.ac-gf-footer-shop {
+		--footer-mini-shop-link-color: #2997ff;
+	}
+}
+#ac-globalfooter.ac-globalfooter-dark.ac-gf-buystrip-background {
+	background: var(--buystrip-background);
+}
+#ac-globalfooter.no-js {
+	.ac-gf-buystrip-info-cta-chat {
+		display: none;
+	}
+}
+
+
+	#ac-globalfooter {
+		.ac-gf-footer {
+			&:nth-child(2) {
+				border-top: none;
+			}
+		}
+		.ac-gf-footer-shop {
+			--footer-mini-shop-link-color: #06c;
+			max-height: 9999px;
+			padding-bottom: 3px;
+		}
+	}
+
+@media only screen and (max-width: 480px) {
+	#ac-globalfooter {
+		.ac-gf-buystrip-info {
+			padding-top: 8px;
+		}
+		.ac-gf-buystrip-info-column {
+			-ms-flex-preferred-size: 100%;
+			flex-basis: 100%;
+			&:first-child {
+				&:nth-last-child(2) {
+					-ms-flex-preferred-size: 100%;
+					flex-basis: 100%;
+				}
+				.ac-gf-buystrip-info-column-content {
+					padding-top: 36px;
+				}
+			}
+			&:last-child {
+				&:nth-child(2) {
+					-ms-flex-preferred-size: 100%;
+					flex-basis: 100%;
+				}
+			}
+		}
+		.ac-gf-buystrip-elevated {
+			.ac-gf-buystrip-info-column {
+				&:first-child {
+					&:nth-last-child(4) {
+						-ms-flex-preferred-size: 100%;
+						flex-basis: 100%;
+					}
+					&:nth-last-child(4)~.ac-gf-buystrip-info-column {
+						-ms-flex-preferred-size: 100%;
+						flex-basis: 100%;
+					}
+				}
+			}
+			.ac-gf-buystrip-info-content {
+				width: 240px;
+				padding-left: 0;
+				padding-right: 0;
+			}
+		}
+		.ac-gf-buystrip-hero {
+			padding-bottom: 16px;
+		}
+	}
+}
+@media only screen and (max-width: 1023px) {
+	#ac-globalfooter {
+		.ac-gf-buystrip-info-column {
+			-ms-flex-preferred-size: 50%;
+			flex-basis: 50%;
+			&:last-child {
+				&:nth-child(3) {
+					-ms-flex-preferred-size: 100%;
+					flex-basis: 100%;
+				}
+			}
+		}
+	}
+}
+@media only screen and (max-width: 734px) {
+	#ac-globalfooter {
+		.ac-gf-buystrip-info-content {
+			padding-top: 36px;
+		}
+	}
+}
+@media only screen and (max-width: 833px) {
+	#ac-globalfooter {
+		.ac-gf-buystrip-hero-product {
+			margin-right: 0;
+			margin-top: 22px;
+		}
+		.ac-gf-buystrip-hero-block {
+			display: block;
+			text-align: center;
+		}
+		.ac-gf-buystrip-hero-title {
+			font-size: 24px;
+			line-height: 1.16667;
+			font-weight: 600;
+			letter-spacing: .009em;
+			font-family: "SF Pro Display", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		.ac-gf-content {
+			padding-left: max(16px, env(safe-area-inset-left));
+			padding-right: max(16px, env(safe-area-inset-right));
+		}
+		.ac-gf-breadcrumbs {
+			border-bottom: 1px solid var(--footer-border-color);
+		}
+		.ac-gf-directory {
+			-webkit-box-orient: vertical;
+			-webkit-box-direction: normal;
+			-ms-flex-direction: column;
+			flex-direction: column;
+		}
+		.ac-gf-directory-column {
+			-ms-flex-preferred-size: auto;
+			flex-basis: auto;
+		}
+		.ac-gf-directory-column-section {
+			position: relative;
+			z-index: 1;
+			border-bottom: 1px solid var(--footer-border-color);
+			overflow: hidden;
+			pointer-events: auto;
+		}
+		.ac-gf-directory-column-section~.ac-gf-directory-column-section {
+			padding-top: 0;
+		}
+		.ac-gf-directory-column-section-title {
+			font-weight: 400;
+			margin: 0;
+			padding-top: 10px;
+			padding-bottom: 10px;
+			color: var(--footer-text-color);
+			background: var(--footer-background);
+			cursor: pointer;
+			position: relative;
+			-webkit-user-select: none;
+			-moz-user-select: none;
+			-ms-user-select: none;
+			user-select: none;
+			z-index: 2;
+			&:hover {
+				color: var(--footer-directory-title-color-hover);
+			}
+			&:after {
+				content: '+';
+				float: right;
+				font-size: 14px;
+				font-weight: normal;
+				margin-top: -2px;
+				margin-right: 8px;
+				-webkit-transition: -webkit-transform .3s ease;
+				transition: -webkit-transform .3s ease;
+				transition: transform .3s ease;
+				transition: transform .3s ease, -webkit-transform .3s ease;
+			}
+		}
+		.ac-gf-directory-column-section-list {
+			margin: 0;
+			overflow: hidden;
+			padding-top: 5px;
+			padding-bottom: 16px;
+			position: absolute;
+			top: 100%;
+			left: 0;
+			width: 100%;
+			visibility: hidden;
+			z-index: -1;
+			-webkit-transform: translateY(-100px);
+			transform: translateY(-100px);
+		}
+		.ac-gf-directory-column-section-item {
+			margin-bottom: 0;
+		}
+		.ac-gf-directory-column-section-link {
+			padding: 6px 14px;
+			display: block;
+			&:focus {
+				outline-offset: -6px;
+			}
+		}
+		.ac-gf-directory-column-section-anchor {
+			display: block;
+		}
+		.ac-gf-directory-column-section-state {
+			&:target+.ac-gf-directory-column-section {
+				.ac-gf-directory-column-section-title {
+					color: var(--footer-directory-title-color-hover);
+					&:after {
+						-webkit-transform: rotate(45deg) scale(1.08);
+						transform: rotate(45deg) scale(1.08);
+					}
+				}
+				.ac-gf-directory-column-section-list {
+					position: static;
+					visibility: visible;
+					z-index: 1;
+					-webkit-transform: none;
+					transform: none;
+					-webkit-transition: -webkit-transform 300ms ease;
+					transition: -webkit-transform 300ms ease;
+					transition: transform 300ms ease;
+					transition: transform 300ms ease, -webkit-transform 300ms ease;
+				}
+				.ac-gf-directory-column-section-anchor-open {
+					display: none;
+				}
+				.ac-gf-directory-column-section-anchor-close {
+					display: block;
+				}
+			}
+			&:checked+.ac-gf-directory-column-section {
+				.ac-gf-directory-column-section-title {
+					color: var(--footer-directory-title-color-hover);
+					&:after {
+						-webkit-transform: rotate(45deg) scale(1.08);
+						transform: rotate(45deg) scale(1.08);
+					}
+				}
+				.ac-gf-directory-column-section-list {
+					position: static;
+					visibility: visible;
+					z-index: 1;
+					-webkit-transform: none;
+					transform: none;
+					-webkit-transition: -webkit-transform 300ms ease;
+					transition: -webkit-transform 300ms ease;
+					transition: transform 300ms ease;
+					transition: transform 300ms ease, -webkit-transform 300ms ease;
+				}
+				.ac-gf-directory-column-section-anchor-open {
+					display: none;
+				}
+				.ac-gf-directory-column-section-anchor-close {
+					display: block;
+				}
+			}
+		}
+		.ac-gf-breadcrumbs+.ac-gf-directory {
+			padding-top: 0;
+		}
+		.ac-gf-footer {
+			padding-bottom: 19px;
+			padding-bottom: calc(19px + constant(safe-area-inset-bottom));
+		}
+		.ac-gf-footer-shop {
+			padding-bottom: 10px;
+		}
+		.ac-gf-footer-locale {
+			left: -1px;
+			padding-top: 5px;
+			float: none;
+		}
+		.ac-gf-footer-legal {
+			padding-top: 12px;
+		}
+		.ac-gf-footer-legal-copyright {
+			margin-right: 0;
+			float: none;
+		}
+		.ac-gf-footer-legal-links {
+			margin-right: 0;
+			float: none;
+		}
+		.ac-gf-breadcrumbs+.ac-gf-footer {
+			border-top: none;
+		}
+		.ac-gf-directory+.ac-gf-footer {
+			padding-top: 17px;
+			.ac-gf-footer-shop {
+				border-bottom: none;
+			}
+		}
+	}
+	
+}
+@media only screen and (max-width: 1044px) {
+	#ac-globalfooter {
+		min-width: 320px;
+	}
+}

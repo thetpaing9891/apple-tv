@@ -1,0 +1,52 @@
+[
+    {
+        "name" : "Store",
+        "path" : "/detail",
+        "attribute" : "store"
+    },
+    {
+        "name" : "Mac",
+        "path" : "/detail",
+        "attribute" : "mac"
+    },
+    {
+        "name" : "iPad",
+        "path" : "/detail",
+        "attribute" : "ipad"
+    },
+    {
+        "name" : "iPhone",
+        "path" : "/detail",
+        "attribute" : "iphone"
+    },
+    {
+        "name" : "Watch",
+        "path" : "/detail",
+        "attribute" : "watch"
+    },
+    {
+        "name" : "AirPods",
+        "path" : "/detail",
+        "attribute" : "airpods"
+    },
+    {
+        "name" : "TV & Home",
+        "path" : "/detail",
+        "attribute" : "tvhome"
+    },
+    {
+        "name" : "Only on Apple",
+        "path" : "/detail",
+        "attribute" : "onlyonapple"
+    },
+    {
+        "name" : "Accessories",
+        "path" : "/detail",
+        "attribute" : "accessories"
+    },
+    {
+        "name" : "Support",
+        "path" : "/detail",
+        "attribute" : "support"
+    }
+]
