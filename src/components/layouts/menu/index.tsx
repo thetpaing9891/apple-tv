@@ -2,6 +2,7 @@ import SearchForm from "@/components/searchform";
 import { useState } from "react";
 import TopMenu from "./top/index";
 import menuData from "@/mocks/menuData.json";
+import Link from "next/link";
 
 const Menu = () => {
   const [menuOpen, setMenuOpen] = useState<boolean>(false);
@@ -45,25 +46,25 @@ const Menu = () => {
 
         <ul className="ac-gn-list">
           <li className="ac-gn-item ac-gn-apple">
-            <a
+            <Link
               className="ac-gn-link ac-gn-link-apple"
               href="/"
               id="ac-gn-firstfocus"
             >
               <span className="ac-gn-link-text">Apple</span>
-            </a>
+            </Link>
           </li>
           {menuData.map((item: any, index: number) => (
             <li
               className={`ac-gn-item ac-gn-item-menu ac-gn-${item.attribute}`}
               key={index}
             >
-              <a
+              <Link
                 className={`ac-gn-link ac-gn-link-${item.attribute}`}
                 href={item.path}
               >
                 <span className="ac-gn-link-text">{item.name}</span>
-              </a>
+              </Link>
             </li>
           ))}
           <li className="ac-gn-item ac-gn-item-menu ac-gn-search" role="search">

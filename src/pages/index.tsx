@@ -11,7 +11,7 @@ import { useInView } from "react-intersection-observer";
 import ServiceOffer from "@/components/offers";
 import ValuesSection from "@/components/values";
 import SlideShow from "@/components/slideshow";
-
+import Link from "next/link";
 
 import data from "@/mocks/marqeeData.json";
 import slideData from "@/mocks/sliderData.json";
@@ -26,9 +26,6 @@ const h2Variant = {
   hidden: { opacity: 0.1 },
 };
 
-
-
-
 const Home: NextPage = () => {
   const control = useAnimation();
   const [ref, inView] = useInView();
@@ -41,9 +38,8 @@ const Home: NextPage = () => {
     setOpacity(Math.min(newScrollHeight, 10));
   }, []);
 
-  
-
   React.useLayoutEffect = React.useEffect;
+
   React.useLayoutEffect(() => {
     if (inView) {
       control.start("visible");
@@ -52,10 +48,9 @@ const Home: NextPage = () => {
     }
 
     //add eventlistener to window
-      window.addEventListener("scroll", onScroll, { passive: true });
+    window.addEventListener("scroll", onScroll, { passive: true });
     // remove event on unmount to prevent a memory leak with the cleanup
-  }, [control, inView]);
-
+  }, [control, inView, onScroll]);
 
   return (
     <Layout>
@@ -126,7 +121,7 @@ const Home: NextPage = () => {
       <ServiceOffer opacity={opacity} />
 
       <Parallax>
-        <SlideShow slideData={slideData} data={data}/>
+        <SlideShow slideData={slideData} data={data} />
       </Parallax>
 
       <PageBottom />

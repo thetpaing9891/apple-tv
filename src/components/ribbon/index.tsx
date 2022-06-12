@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const Ribbon = () => {
   return (
     <div className="ribbon ribbon-blue-to-default">
@@ -11,13 +13,13 @@ const Ribbon = () => {
               <p>
                 Friday&nbsp;Night&nbsp;Baseball, now streaming on
                 Apple&nbsp;TV+.
-                <a
-                 href="/detail"
+                <Link
+                  href="/detail"
                   className="icon-wrapper icon-wrapper ribbon-link"
                 >
                   <span className="icon-copy">Learn more</span>
                   <span className="icon icon-after more"></span>
-                </a>{" "}
+                </Link>{" "}
               </p>
             </div>
           </div>

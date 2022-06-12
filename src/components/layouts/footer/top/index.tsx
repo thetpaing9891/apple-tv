@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const FooterTop = () => {
   return (
@@ -24,7 +25,7 @@ const FooterTop = () => {
             Family have previously accepted an Apple&nbsp;TV+ one year free
             offer. Offer good for 3 months after eligible device activation.
             Plan automatically renews until cancelled. Restrictions and other{" "}
-            <a href="promo.html">terms</a> apply.
+            <Link href="promo.html">terms</Link> apply.
           </li>
           <li id="footnote-3">
             One subscription per Family&nbsp;Sharing group. Plan automatically
@@ -50,14 +51,14 @@ const FooterTop = () => {
         aria-label="Breadcrumbs"
         role="navigation"
       >
-        <a href="/detail" className="home ac-gf-breadcrumbs-home">
+        <Link href="/detail" className="home ac-gf-breadcrumbs-home">
           <span className="ac-gf-breadcrumbs-home-icon" aria-hidden="true">
             &#63743;
           </span>
           <span className="ac-gf-breadcrumbs-home-label">Apple</span>
           <span className="ac-gf-breadcrumbs-home-chevron"></span>
           <span className="ac-gf-breadcrumbs-home-mask"></span>
-        </a>
+        </Link>
         <div className="ac-gf-breadcrumbs-path">
           <ol
             className="ac-gf-breadcrumbs-list"
@@ -69,14 +70,14 @@ const FooterTop = () => {
               property="itemListElement"
               typeof="ListItem"
             >
-              <a
+              <Link
                 className="ac-gf-breadcrumbs-link"
                 href="/detail"
                 property="item"
                 typeof="WebPage"
               >
                 <span property="name">Only on Apple</span>
-              </a>
+              </Link>
               <meta property="position" content="1" />
             </li>
             <li

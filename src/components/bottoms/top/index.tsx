@@ -1,4 +1,5 @@
 import { motion, useAnimation } from "framer-motion";
+import Link from "next/link";
 
 const BottomTop = () => {
   return (
@@ -21,7 +22,7 @@ const BottomTop = () => {
             <br className="large" />
             <br className="medium" />
             Or&nbsp;watch Apple&nbsp;TV+ online at{" "}
-            <a href="/detail">tv.apple.com</a>.
+            <Link href="/detail">tv.apple.com</Link>.
           </p>
         </div>
         <div
@@ -112,24 +113,24 @@ const BottomTop = () => {
           </p>
           <ul className="links-stacked">
             <li>
-              <a
+              <Link
                 href="/detail"
                 className="icon-wrapper typography-body"
                 data-analytics-exit-link
               >
                 <span className="icon-copy">Set up your device</span>
                 <span className="icon icon-after more"></span>
-              </a>{" "}
+              </Link>{" "}
             </li>
             <li>
-              <a
+              <Link
                 href="/detail"
                 className="icon-wrapper typography-body"
                 data-analytics-exit-link
               >
                 <span className="icon-copy">Explore compatible devices</span>
                 <span className="icon icon-after more"></span>
-              </a>{" "}
+              </Link>{" "}
             </li>
           </ul>
         </div>

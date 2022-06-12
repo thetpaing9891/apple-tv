@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const ServiceOffer = (props: any) => {
   const opacity = props.opacity;
   return (
@@ -22,9 +24,12 @@ const ServiceOffer = (props: any) => {
                 </a>
               </sup>
             </p>
-            <a href="/detail" className="button button-elevated button-custom">
+            <Link
+              href="/detail"
+              className="button button-elevated button-custom"
+            >
               Check eligibility
-            </a>
+            </Link>
           </div>
           <div
             className={`offer column large-4 small-12 has-fade will-change ${
@@ -37,14 +42,17 @@ const ServiceOffer = (props: any) => {
               A monthly subscription is just $4.99 per month after a free 7-day
               trial. Share Apple&nbsp;TV+ with your family.
               <sup className="footnote footnote-number">
-                <a href="/detail" aria-label="Footnote 2">
+                <Link href="/detail" aria-label="Footnote 2">
                   2
-                </a>
+                </Link>
               </sup>
             </p>
-            <a href="/detail" className="button button-elevated button-custom">
+            <Link
+              href="/detail"
+              className="button button-elevated button-custom"
+            >
               Try it free
-            </a>
+            </Link>
           </div>
           <div
             className={`offer column large-4 small-12 has-fade will-change ${
@@ -60,14 +68,17 @@ const ServiceOffer = (props: any) => {
             <p className="typography-body offer-copy large-11 medium-11  small-12">
               Bundle Apple&nbsp;TV+ with up to five other great services for one
               low monthly price. And enjoy more for&nbsp;less.{" "}
-              <a href="/detail" className="more">
+              <Link href="/detail" className="more">
                 Learn more
-              </a>
+              </Link>
             </p>
-            <a href="/detail" className="button button-elevated button-custom">
+            <Link
+              href="/detail"
+              className="button button-elevated button-custom"
+            >
               Try Apple&nbsp;One free
               <span className="footnote footnote-supglyph">*</span>
-            </a>
+            </Link>
           </div>
         </div>
       </div>

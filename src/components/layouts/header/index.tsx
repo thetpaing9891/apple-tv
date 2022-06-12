@@ -1,5 +1,5 @@
 import Menu from "../menu";
-
+import Link from "next/link";
 
 const Header = () => {
   return (
@@ -13,23 +13,23 @@ const Header = () => {
           <div className="ac-ln-background"></div>
           <div className="ac-ln-content">
             <div className="ac-ln-title">
-              <a href="/" data-analytics-title="product index">
+              <Link href="/" data-analytics-title="product index">
                 Apple TV+
-              </a>
+              </Link>
             </div>
             <div className="ac-ln-menu">
               <div className="ac-ln-actions ac-ln-actions-center">
                 <div className="ac-ln-action ac-ln-action-button stream-element">
-                  <a className="ac-ln-button" href="/detail">
+                  <Link className="ac-ln-button" href="/detail">
                     Stream now
                     <span className="ac-ln-action-product"></span>
-                  </a>
+                  </Link>
                 </div>
                 <div className="ac-ln-action ac-ln-action-button try-it-free-element">
-                  <a className="ac-ln-button" href="/detail">
+                  <Link className="ac-ln-button" href="/detail">
                     Try it free
                     <span className="ac-ln-action-product"></span>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

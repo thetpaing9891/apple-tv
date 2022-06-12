@@ -1,6 +1,7 @@
 import React from "react";
 import data from "@/mocks/footerData.json";
 import { FooterProps } from "@/types";
+import Link from "next/link";
 
 const FooterNav = () => {
   const [navigation, setNavigation] = React.useState<FooterProps>(data);
@@ -26,112 +27,112 @@ const FooterNav = () => {
               Shop and Learn
             </h3>
           </label>
-          <a
+          <Link
             href="#ac-gf-directory-column-section-state-products"
             className="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-open"
           >
             <span className="ac-gf-directory-column-section-anchor-label">
               Open Menu
             </span>
-          </a>
-          <a
+          </Link>
+          <Link
             href="/#"
             className="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-close"
           >
             <span className="ac-gf-directory-column-section-anchor-label">
               Close Menu
             </span>
-          </a>
+          </Link>
           <ul className="ac-gf-directory-column-section-list">
             <li className="ac-gf-directory-column-section-item">
-              <a
+              <Link
                 className="ac-gf-directory-column-section-link"
                 href="/detail"
                 data-analytics-title="store"
               >
                 Store
-              </a>
+              </Link>
             </li>
             <li className="ac-gf-directory-column-section-item">
-              <a
+              <Link
                 className="ac-gf-directory-column-section-link"
                 href="/detail"
                 data-analytics-title="mac"
               >
                 Mac
-              </a>
+              </Link>
             </li>
             <li className="ac-gf-directory-column-section-item">
-              <a
+              <Link
                 className="ac-gf-directory-column-section-link"
                 href="/detail"
                 data-analytics-title="ipad"
               >
                 iPad
-              </a>
+              </Link>
             </li>
             <li className="ac-gf-directory-column-section-item">
-              <a
+              <Link
                 className="ac-gf-directory-column-section-link"
                 href="/detail"
                 data-analytics-title="iphone"
               >
                 iPhone
-              </a>
+              </Link>
             </li>
             <li className="ac-gf-directory-column-section-item">
-              <a
+              <Link
                 className="ac-gf-directory-column-section-link"
                 href="/detail"
                 data-analytics-title="watch"
               >
                 Watch
-              </a>
+              </Link>
             </li>
             <li className="ac-gf-directory-column-section-item">
-              <a
+              <Link
                 className="ac-gf-directory-column-section-link"
                 href="/detail"
                 data-analytics-title="airpods"
               >
                 AirPods
-              </a>
+              </Link>
             </li>
             <li className="ac-gf-directory-column-section-item">
-              <a
+              <Link
                 className="ac-gf-directory-column-section-link"
                 href="/detail"
                 data-analytics-title="tv and home"
               >
                 TV &amp; Home
-              </a>
+              </Link>
             </li>
             <li className="ac-gf-directory-column-section-item">
-              <a
+              <Link
                 className="ac-gf-directory-column-section-link"
                 href="/detail"
                 data-analytics-title="airtag"
               >
                 AirTag
-              </a>
+              </Link>
             </li>
             <li className="ac-gf-directory-column-section-item">
-              <a
+              <Link
                 className="ac-gf-directory-column-section-link"
                 href="/detail"
                 data-analytics-title="accessories"
               >
                 Accessories
-              </a>
+              </Link>
             </li>
             <li className="ac-gf-directory-column-section-item">
-              <a
+              <Link
                 className="ac-gf-directory-column-section-link"
                 href="/detail"
                 data-analytics-title="gift cards"
               >
                 Gift Cards
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
@@ -150,121 +151,121 @@ const FooterNav = () => {
           >
             <h3 className="ac-gf-directory-column-section-title">Services</h3>
           </label>
-          <a
+          <Link
             href="#ac-gf-directory-column-section-state-services"
             className="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-open"
           >
             <span className="ac-gf-directory-column-section-anchor-label">
               Open Menu
             </span>
-          </a>
-          <a
+          </Link>
+          <Link
             href="#"
             className="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-close"
           >
             <span className="ac-gf-directory-column-section-anchor-label">
               Close Menu
             </span>
-          </a>
+          </Link>
           <ul className="ac-gf-directory-column-section-list">
             <li className="ac-gf-directory-column-section-item">
-              <a
+              <Link
                 className="ac-gf-directory-column-section-link"
                 href="/detail"
                 data-analytics-title="apple music"
               >
                 Apple&nbsp;Music
-              </a>
+              </Link>
             </li>
             <li className="ac-gf-directory-column-section-item">
-              <a
+              <Link
                 className="ac-gf-directory-column-section-link"
                 href="/detail"
                 data-analytics-title="apple tv plus"
               >
                 Apple&nbsp;TV+
-              </a>
+              </Link>
             </li>
             <li className="ac-gf-directory-column-section-item">
-              <a
+              <Link
                 className="ac-gf-directory-column-section-link"
                 href="/detail"
                 data-analytics-title="apple fitness plus"
               >
                 Apple&nbsp;Fitness+
-              </a>
+              </Link>
             </li>
             <li className="ac-gf-directory-column-section-item">
-              <a
+              <Link
                 className="ac-gf-directory-column-section-link"
                 href="/detail"
                 data-analytics-title="apple news plus"
               >
                 Apple&nbsp;News+
-              </a>
+              </Link>
             </li>
             <li className="ac-gf-directory-column-section-item">
-              <a
+              <Link
                 className="ac-gf-directory-column-section-link"
                 href="/detail"
                 data-analytics-title="apple arcade"
               >
                 Apple&nbsp;Arcade
-              </a>
+              </Link>
             </li>
             <li className="ac-gf-directory-column-section-item">
-              <a
+              <Link
                 className="ac-gf-directory-column-section-link"
                 href="/detail"
                 data-analytics-title="icloud"
               >
                 iCloud
-              </a>
+              </Link>
             </li>
             <li className="ac-gf-directory-column-section-item">
-              <a
+              <Link
                 className="ac-gf-directory-column-section-link"
                 href="/detail"
                 data-analytics-title="apple one"
               >
                 Apple&nbsp;One
-              </a>
+              </Link>
             </li>
             <li className="ac-gf-directory-column-section-item">
-              <a
+              <Link
                 className="ac-gf-directory-column-section-link"
                 href="/detail"
                 data-analytics-title="apple card"
               >
                 Apple&nbsp;Card
-              </a>
+              </Link>
             </li>
             <li className="ac-gf-directory-column-section-item">
-              <a
+              <Link
                 className="ac-gf-directory-column-section-link"
                 href="/detail"
                 data-analytics-title="apple books"
               >
                 Apple&nbsp;Books
-              </a>
+              </Link>
             </li>
             <li className="ac-gf-directory-column-section-item">
-              <a
+              <Link
                 className="ac-gf-directory-column-section-link"
                 href="/detail"
                 data-analytics-title="apple podcasts"
               >
                 Apple Podcasts
-              </a>
+              </Link>
             </li>
             <li className="ac-gf-directory-column-section-item">
-              <a
+              <Link
                 className="ac-gf-directory-column-section-link"
                 href="/detail"
                 data-analytics-title="app store"
               >
                 App&nbsp;Store
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
@@ -281,37 +282,46 @@ const FooterNav = () => {
           >
             <h3 className="ac-gf-directory-column-section-title">Account</h3>
           </label>
-          <a
+          <Link
             href="#ac-gf-directory-column-section-state-accounts"
             className="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-open"
           >
             <span className="ac-gf-directory-column-section-anchor-label">
               Open Menu
             </span>
-          </a>
-          <a
+          </Link>
+          <Link
             href="#"
             className="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-close"
           >
             <span className="ac-gf-directory-column-section-anchor-label">
               Close Menu
             </span>
-          </a>
+          </Link>
           <ul className="ac-gf-directory-column-section-list">
             <li className="ac-gf-directory-column-section-item">
-              <a className="ac-gf-directory-column-section-link" href="/detail">
+              <Link
+                className="ac-gf-directory-column-section-link"
+                href="/detail"
+              >
                 Manage Your Apple ID
-              </a>
+              </Link>
             </li>
             <li className="ac-gf-directory-column-section-item">
-              <a className="ac-gf-directory-column-section-link" href="/detail">
+              <Link
+                className="ac-gf-directory-column-section-link"
+                href="/detail"
+              >
                 Apple Store Account
-              </a>
+              </Link>
             </li>
             <li className="ac-gf-directory-column-section-item">
-              <a className="ac-gf-directory-column-section-link" href="/detail">
+              <Link
+                className="ac-gf-directory-column-section-link"
+                href="/detail"
+              >
                 iCloud.com
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
@@ -331,72 +341,102 @@ const FooterNav = () => {
               Apple Store
             </h3>
           </label>
-          <a
+          <Link
             href="#ac-gf-directory-column-section-state-storeservices"
             className="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-open"
           >
             <span className="ac-gf-directory-column-section-anchor-label">
               Open Menu
             </span>
-          </a>
-          <a
+          </Link>
+          <Link
             href="#"
             className="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-close"
           >
             <span className="ac-gf-directory-column-section-anchor-label">
               Close Menu
             </span>
-          </a>
+          </Link>
           <ul className="ac-gf-directory-column-section-list">
             <li className="ac-gf-directory-column-section-item">
-              <a className="ac-gf-directory-column-section-link" href="/detail">
+              <Link
+                className="ac-gf-directory-column-section-link"
+                href="/detail"
+              >
                 Find a Store
-              </a>
+              </Link>
             </li>
             <li className="ac-gf-directory-column-section-item">
-              <a className="ac-gf-directory-column-section-link" href="/detail">
+              <Link
+                className="ac-gf-directory-column-section-link"
+                href="/detail"
+              >
                 Genius Bar
-              </a>
+              </Link>
             </li>
             <li className="ac-gf-directory-column-section-item">
-              <a className="ac-gf-directory-column-section-link" href="/detail">
+              <Link
+                className="ac-gf-directory-column-section-link"
+                href="/detail"
+              >
                 Today at Apple
-              </a>
+              </Link>
             </li>
             <li className="ac-gf-directory-column-section-item">
-              <a className="ac-gf-directory-column-section-link" href="/detail">
+              <Link
+                className="ac-gf-directory-column-section-link"
+                href="/detail"
+              >
                 Apple Camp
-              </a>
+              </Link>
             </li>
             <li className="ac-gf-directory-column-section-item">
-              <a className="ac-gf-directory-column-section-link" href="/detail">
+              <Link
+                className="ac-gf-directory-column-section-link"
+                href="/detail"
+              >
                 Apple Store App
-              </a>
+              </Link>
             </li>
             <li className="ac-gf-directory-column-section-item">
-              <a className="ac-gf-directory-column-section-link" href="/detail">
+              <Link
+                className="ac-gf-directory-column-section-link"
+                href="/detail"
+              >
                 Refurbished and Clearance
-              </a>
+              </Link>
             </li>
             <li className="ac-gf-directory-column-section-item">
-              <a className="ac-gf-directory-column-section-link" href="/detail">
+              <Link
+                className="ac-gf-directory-column-section-link"
+                href="/detail"
+              >
                 Financing
-              </a>
+              </Link>
             </li>
             <li className="ac-gf-directory-column-section-item">
-              <a className="ac-gf-directory-column-section-link" href="/detail">
+              <Link
+                className="ac-gf-directory-column-section-link"
+                href="/detail"
+              >
                 Apple&nbsp;Trade&nbsp;In
-              </a>
+              </Link>
             </li>
             <li className="ac-gf-directory-column-section-item">
-              <a className="ac-gf-directory-column-section-link" href="/detail">
+              <Link
+                className="ac-gf-directory-column-section-link"
+                href="/detail"
+              >
                 Order Status
-              </a>
+              </Link>
             </li>
             <li className="ac-gf-directory-column-section-item">
-              <a className="ac-gf-directory-column-section-link" href="/detail">
+              <Link
+                className="ac-gf-directory-column-section-link"
+                href="/detail"
+              >
                 Shopping Help
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
@@ -416,32 +456,38 @@ const FooterNav = () => {
               For Business
             </h3>
           </label>
-          <a
+          <Link
             href="#ac-gf-directory-column-section-state-business"
             className="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-open"
           >
             <span className="ac-gf-directory-column-section-anchor-label">
               Open Menu
             </span>
-          </a>
-          <a
+          </Link>
+          <Link
             href="#"
             className="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-close"
           >
             <span className="ac-gf-directory-column-section-anchor-label">
               Close Menu
             </span>
-          </a>
+          </Link>
           <ul className="ac-gf-directory-column-section-list">
             <li className="ac-gf-directory-column-section-item">
-              <a className="ac-gf-directory-column-section-link" href="/detail">
+              <Link
+                className="ac-gf-directory-column-section-link"
+                href="/detail"
+              >
                 Apple and Business
-              </a>
+              </Link>
             </li>
             <li className="ac-gf-directory-column-section-item">
-              <a className="ac-gf-directory-column-section-link" href="/detail">
+              <Link
+                className="ac-gf-directory-column-section-link"
+                href="/detail"
+              >
                 Shop for Business
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
@@ -459,37 +505,46 @@ const FooterNav = () => {
               For Education
             </h3>
           </label>
-          <a
+          <Link
             href="#ac-gf-directory-column-section-state-education"
             className="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-open"
           >
             <span className="ac-gf-directory-column-section-anchor-label">
               Open Menu
             </span>
-          </a>
-          <a
+          </Link>
+          <Link
             href="#"
             className="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-close"
           >
             <span className="ac-gf-directory-column-section-anchor-label">
               Close Menu
             </span>
-          </a>
+          </Link>
           <ul className="ac-gf-directory-column-section-list">
             <li className="ac-gf-directory-column-section-item">
-              <a className="ac-gf-directory-column-section-link" href="/detail">
+              <Link
+                className="ac-gf-directory-column-section-link"
+                href="/detail"
+              >
                 Apple and Education
-              </a>
+              </Link>
             </li>
             <li className="ac-gf-directory-column-section-item">
-              <a className="ac-gf-directory-column-section-link" href="/detail">
+              <Link
+                className="ac-gf-directory-column-section-link"
+                href="/detail"
+              >
                 Shop for K-12
-              </a>
+              </Link>
             </li>
             <li className="ac-gf-directory-column-section-item">
-              <a className="ac-gf-directory-column-section-link" href="/detail">
+              <Link
+                className="ac-gf-directory-column-section-link"
+                href="/detail"
+              >
                 Shop for College
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
@@ -507,37 +562,46 @@ const FooterNav = () => {
               For Healthcare
             </h3>
           </label>
-          <a
+          <Link
             href="#ac-gf-directory-column-section-state-healthcare"
             className="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-open"
           >
             <span className="ac-gf-directory-column-section-anchor-label">
               Open Menu
             </span>
-          </a>
-          <a
+          </Link>
+          <Link
             href="#"
             className="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-close"
           >
             <span className="ac-gf-directory-column-section-anchor-label">
               Close Menu
             </span>
-          </a>
+          </Link>
           <ul className="ac-gf-directory-column-section-list">
             <li className="ac-gf-directory-column-section-item">
-              <a className="ac-gf-directory-column-section-link" href="/detail">
+              <Link
+                className="ac-gf-directory-column-section-link"
+                href="/detail"
+              >
                 Apple in Healthcare
-              </a>
+              </Link>
             </li>
             <li className="ac-gf-directory-column-section-item">
-              <a className="ac-gf-directory-column-section-link" href="/detail">
+              <Link
+                className="ac-gf-directory-column-section-link"
+                href="/detail"
+              >
                 Health on Apple&nbsp;Watch
-              </a>
+              </Link>
             </li>
             <li className="ac-gf-directory-column-section-item">
-              <a className="ac-gf-directory-column-section-link" href="/detail">
+              <Link
+                className="ac-gf-directory-column-section-link"
+                href="/detail"
+              >
                 Health Records on iPhone
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
@@ -555,32 +619,38 @@ const FooterNav = () => {
               For Government
             </h3>
           </label>
-          <a
+          <Link
             href="#ac-gf-directory-column-section-state-government"
             className="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-open"
           >
             <span className="ac-gf-directory-column-section-anchor-label">
               Open Menu
             </span>
-          </a>
-          <a
+          </Link>
+          <Link
             href="#"
             className="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-close"
           >
             <span className="ac-gf-directory-column-section-anchor-label">
               Close Menu
             </span>
-          </a>
+          </Link>
           <ul className="ac-gf-directory-column-section-list">
             <li className="ac-gf-directory-column-section-item">
-              <a className="ac-gf-directory-column-section-link" href="/detail">
+              <Link
+                className="ac-gf-directory-column-section-link"
+                href="/detail"
+              >
                 Shop for Government
-              </a>
+              </Link>
             </li>
             <li className="ac-gf-directory-column-section-item">
-              <a className="ac-gf-directory-column-section-link" href="/detail">
+              <Link
+                className="ac-gf-directory-column-section-link"
+                href="/detail"
+              >
                 Shop for Veterans and Military
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
@@ -600,61 +670,79 @@ const FooterNav = () => {
               Apple Values
             </h3>
           </label>
-          <a
+          <Link
             href="#ac-gf-directory-column-section-state-responsibility"
             className="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-open"
           >
             <span className="ac-gf-directory-column-section-anchor-label">
               Open Menu
             </span>
-          </a>
-          <a
+          </Link>
+          <Link
             href="#"
             className="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-close"
           >
             <span className="ac-gf-directory-column-section-anchor-label">
               Close Menu
             </span>
-          </a>
+          </Link>
           <ul className="ac-gf-directory-column-section-list">
             <li className="ac-gf-directory-column-section-item">
-              <a
+              <Link
                 className="ac-gf-directory-column-section-link"
                 href="accessibility.html"
                 data-analytics-title="accessibility"
               >
                 Accessibility
-              </a>
+              </Link>
             </li>
             <li className="ac-gf-directory-column-section-item">
-              <a className="ac-gf-directory-column-section-link" href="/detail">
+              <Link
+                className="ac-gf-directory-column-section-link"
+                href="/detail"
+              >
                 Education
-              </a>
+              </Link>
             </li>
             <li className="ac-gf-directory-column-section-item">
-              <a className="ac-gf-directory-column-section-link" href="/detail">
+              <Link
+                className="ac-gf-directory-column-section-link"
+                href="/detail"
+              >
                 Environment
-              </a>
+              </Link>
             </li>
             <li className="ac-gf-directory-column-section-item">
-              <a className="ac-gf-directory-column-section-link" href="/detail">
+              <Link
+                className="ac-gf-directory-column-section-link"
+                href="/detail"
+              >
                 Inclusion and Diversity
-              </a>
+              </Link>
             </li>
             <li className="ac-gf-directory-column-section-item">
-              <a className="ac-gf-directory-column-section-link" href="/detail">
+              <Link
+                className="ac-gf-directory-column-section-link"
+                href="/detail"
+              >
                 Privacy
-              </a>
+              </Link>
             </li>
             <li className="ac-gf-directory-column-section-item">
-              <a className="ac-gf-directory-column-section-link" href="/detail">
+              <Link
+                className="ac-gf-directory-column-section-link"
+                href="/detail"
+              >
                 Racial Equity and Justice
-              </a>
+              </Link>
             </li>
             <li className="ac-gf-directory-column-section-item">
-              <a className="ac-gf-directory-column-section-link" href="/detail">
+              <Link
+                className="ac-gf-directory-column-section-link"
+                href="/detail"
+              >
                 Supplier Responsibility
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
@@ -672,57 +760,78 @@ const FooterNav = () => {
               About Apple
             </h3>
           </label>
-          <a
+          <Link
             href="#ac-gf-directory-column-section-state-about"
             className="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-open"
           >
             <span className="ac-gf-directory-column-section-anchor-label">
               Open Menu
             </span>
-          </a>
-          <a
+          </Link>
+          <Link
             href="#"
             className="ac-gf-directory-column-section-anchor ac-gf-directory-column-section-anchor-close"
           >
             <span className="ac-gf-directory-column-section-anchor-label">
               Close Menu
             </span>
-          </a>
+          </Link>
           <ul className="ac-gf-directory-column-section-list">
             <li className="ac-gf-directory-column-section-item">
-              <a className="ac-gf-directory-column-section-link" href="/detail">
+              <Link
+                className="ac-gf-directory-column-section-link"
+                href="/detail"
+              >
                 Newsroom
-              </a>
+              </Link>
             </li>
             <li className="ac-gf-directory-column-section-item">
-              <a className="ac-gf-directory-column-section-link" href="/detail">
+              <Link
+                className="ac-gf-directory-column-section-link"
+                href="/detail"
+              >
                 Apple Leadership
-              </a>
+              </Link>
             </li>
             <li className="ac-gf-directory-column-section-item">
-              <a className="ac-gf-directory-column-section-link" href="/detail">
+              <Link
+                className="ac-gf-directory-column-section-link"
+                href="/detail"
+              >
                 Career Opportunities
-              </a>
+              </Link>
             </li>
             <li className="ac-gf-directory-column-section-item">
-              <a className="ac-gf-directory-column-section-link" href="/detail">
+              <Link
+                className="ac-gf-directory-column-section-link"
+                href="/detail"
+              >
                 Investors
-              </a>
+              </Link>
             </li>
             <li className="ac-gf-directory-column-section-item">
-              <a className="ac-gf-directory-column-section-link" href="/detail">
+              <Link
+                className="ac-gf-directory-column-section-link"
+                href="/detail"
+              >
                 Ethics &amp; Compliance
-              </a>
+              </Link>
             </li>
             <li className="ac-gf-directory-column-section-item">
-              <a className="ac-gf-directory-column-section-link" href="/detail">
+              <Link
+                className="ac-gf-directory-column-section-link"
+                href="/detail"
+              >
                 Events
-              </a>
+              </Link>
             </li>
             <li className="ac-gf-directory-column-section-item">
-              <a className="ac-gf-directory-column-section-link" href="/detail">
+              <Link
+                className="ac-gf-directory-column-section-link"
+                href="/detail"
+              >
                 Contact Apple
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
