@@ -51,7 +51,7 @@ const Menu = () => {
               href="/"
               id="ac-gn-firstfocus"
             >
-              <span className="ac-gn-link-text">Apple</span>
+              <span className="ac-gn-link-text">Apple </span>
             </Link>
           </li>
           {menuData.map((item: any, index: number) => (
@@ -59,12 +59,12 @@ const Menu = () => {
               className={`ac-gn-item ac-gn-item-menu ac-gn-${item.attribute}`}
               key={index}
             >
-              <Link
+              <a
                 className={`ac-gn-link ac-gn-link-${item.attribute}`}
                 href={item.path}
               >
                 <span className="ac-gn-link-text">{item.name}</span>
-              </Link>
+              </a>
             </li>
           ))}
           <li className="ac-gn-item ac-gn-item-menu ac-gn-search" role="search">

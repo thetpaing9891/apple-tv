@@ -13,13 +13,10 @@ const Ribbon = () => {
               <p>
                 Friday&nbsp;Night&nbsp;Baseball, now streaming on
                 Apple&nbsp;TV+.
-                <Link
-                  href="/detail"
-                  className="icon-wrapper icon-wrapper ribbon-link"
-                >
+                <a href="#" className="icon-wrapper icon-wrapper ribbon-link">
                   <span className="icon-copy">Learn more</span>
                   <span className="icon icon-after more"></span>
-                </Link>{" "}
+                </a>{" "}
               </p>
             </div>
           </div>

@@ -1,4 +1,5 @@
 import Marquee from "react-fast-marquee";
+import Link from "next/link";
 
 const MarqueeSection = (props: any) => {
   return (
@@ -12,7 +13,7 @@ const MarqueeSection = (props: any) => {
                 key={item.name}
                 style={{ backgroundImage: `url(${item.image})` }}
               >
-                <a className="fill" href="/detail" target="_blank">
+                <a className="fill" href="#">
                   <h4 aria-hidden="true">{item.name}</h4>
                   <div className="hover fill">
                     <span
@@ -37,7 +38,7 @@ const MarqueeSection = (props: any) => {
                 key={item.name}
                 style={{ backgroundImage: `url(${item.image})` }}
               >
-                <a className="fill" href="/detail" target="_blank">
+                <a className="fill" href="#">
                   <h4 aria-hidden="true">{item.name}</h4>
                   <div className="hover fill">
                     <span

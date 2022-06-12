@@ -13,23 +13,21 @@ const Header = () => {
           <div className="ac-ln-background"></div>
           <div className="ac-ln-content">
             <div className="ac-ln-title">
-              <Link href="/" data-analytics-title="product index">
-                Apple TV+
-              </Link>
+              <Link href="/">Apple TV+</Link>
             </div>
             <div className="ac-ln-menu">
               <div className="ac-ln-actions ac-ln-actions-center">
                 <div className="ac-ln-action ac-ln-action-button stream-element">
-                  <Link className="ac-ln-button" href="/detail">
+                  <a className="ac-ln-button" href="#">
                     Stream now
                     <span className="ac-ln-action-product"></span>
-                  </Link>
+                  </a>
                 </div>
                 <div className="ac-ln-action ac-ln-action-button try-it-free-element">
-                  <Link className="ac-ln-button" href="/detail">
+                  <a className="ac-ln-button" href="#">
                     Try it free
                     <span className="ac-ln-action-product"></span>
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>

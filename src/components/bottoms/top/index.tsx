@@ -21,8 +21,7 @@ const BottomTop = () => {
             Find the Apple&nbsp;TV&nbsp;app on your favorite Apple devices.{" "}
             <br className="large" />
             <br className="medium" />
-            Or&nbsp;watch Apple&nbsp;TV+ online at{" "}
-            <Link href="/detail">tv.apple.com</Link>.
+            Or&nbsp;watch Apple&nbsp;TV+ online at <a href="#">tv.apple.com</a>.
           </p>
         </div>
         <div
@@ -113,24 +112,16 @@ const BottomTop = () => {
           </p>
           <ul className="links-stacked">
             <li>
-              <Link
-                href="/detail"
-                className="icon-wrapper typography-body"
-                data-analytics-exit-link
-              >
+              <a href="#" className="icon-wrapper typography-body">
                 <span className="icon-copy">Set up your device</span>
                 <span className="icon icon-after more"></span>
-              </Link>{" "}
+              </a>{" "}
             </li>
             <li>
-              <Link
-                href="/detail"
-                className="icon-wrapper typography-body"
-                data-analytics-exit-link
-              >
+              <a href="#" className="icon-wrapper typography-body">
                 <span className="icon-copy">Explore compatible devices</span>
                 <span className="icon icon-after more"></span>
-              </Link>{" "}
+              </a>{" "}
             </li>
           </ul>
         </div>

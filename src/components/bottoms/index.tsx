@@ -29,24 +29,20 @@ const PageBottom = () => {
                 <br />
                 And enjoy more for less.
               </p>
-              <Link
-                href="/detail"
+              <a
+                href="#"
                 className="icon-wrapper button button-elevated button-custom-dark"
-                data-analytics-exit-link
               >
                 <span className="icon-copy">
                   Try Apple&nbsp;One free
                   <span className="footnote footnote-supglyph">*</span>
                 </span>
-              </Link>
+              </a>
               <span className="large-hide"></span>
-              <Link
-                href="/detail"
-                className="icon-wrapper typography-router-cta"
-              >
+              <a href="#" className="icon-wrapper typography-router-cta">
                 <span className="icon-copy">Learn more</span>
                 <span className="icon icon-after more"></span>
-              </Link>{" "}
+              </a>{" "}
             </div>
           </div>
         </div>
@@ -73,12 +69,12 @@ const PageBottom = () => {
                     </a>
                   </sup>
                 </p>
-                <Link
-                  href="/detail"
+                <a
+                  href="#"
                   className="button button-elevated button-custom-dark"
                 >
                   Try Apple Music free
-                </Link>
+                </a>
               </div>
               <div className="image-wrapper column large-6 medium-7 small-12">
                 <figure
@@ -108,15 +104,15 @@ const PageBottom = () => {
                 <div className="typography-router-cta large-12 large-centered">
                   <ul className="links-inline">
                     <li>
-                      <Link href="/detail" className="icon-wrapper button">
+                      <a href="#" className="icon-wrapper button">
                         <span className="icon-copy">Buy</span>
-                      </Link>{" "}
+                      </a>{" "}
                     </li>
                     <li>
-                      <Link href="/detail" className="icon-wrapper learn-more">
+                      <a href="#" className="icon-wrapper learn-more">
                         <span className="icon-copy">Learn more</span>
                         <span className="icon icon-after more"></span>
-                      </Link>{" "}
+                      </a>{" "}
                     </li>
                   </ul>
                 </div>
@@ -135,13 +131,13 @@ const PageBottom = () => {
                 <p className="typography-router-headline headline">
                   Bring Apple&nbsp;TV+ to <br />a screen near you.
                 </p>
-                <Link
-                  href="/detail"
+                <a
+                  href="#"
                   className="icon-wrapper typography-router-cta learn-more"
                 >
                   <span className="icon-copy">Learn more</span>
                   <span className="icon icon-after more"></span>
-                </Link>{" "}
+                </a>{" "}
               </div>
             </div>
           </div>

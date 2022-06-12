@@ -41,8 +41,8 @@ const SlidShow = (props: any) => {
               <div className="slide-container">
                 <Slide {...properties} easing="ease">
                   {props.slideData.map((data: any, index: number) => (
-                    <Link
-                      href="/detail"
+                    <a
+                      href="#"
                       className="slide-item feature theme-dark each-slide"
                       key={index}
                     >
@@ -76,7 +76,7 @@ const SlidShow = (props: any) => {
                           </div>
                         </div>
                       </div>
-                    </Link>
+                    </a>
                   ))}
                 </Slide>
               </div>

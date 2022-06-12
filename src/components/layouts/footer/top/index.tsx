@@ -25,7 +25,7 @@ const FooterTop = () => {
             Family have previously accepted an Apple&nbsp;TV+ one year free
             offer. Offer good for 3 months after eligible device activation.
             Plan automatically renews until cancelled. Restrictions and other{" "}
-            <Link href="promo.html">terms</Link> apply.
+            <a href="#">terms</a> apply.
           </li>
           <li id="footnote-3">
             One subscription per Family&nbsp;Sharing group. Plan automatically
@@ -51,14 +51,14 @@ const FooterTop = () => {
         aria-label="Breadcrumbs"
         role="navigation"
       >
-        <Link href="/detail" className="home ac-gf-breadcrumbs-home">
+        <a href="#" className="home ac-gf-breadcrumbs-home">
           <span className="ac-gf-breadcrumbs-home-icon" aria-hidden="true">
             &#63743;
           </span>
           <span className="ac-gf-breadcrumbs-home-label">Apple</span>
           <span className="ac-gf-breadcrumbs-home-chevron"></span>
           <span className="ac-gf-breadcrumbs-home-mask"></span>
-        </Link>
+        </a>
         <div className="ac-gf-breadcrumbs-path">
           <ol
             className="ac-gf-breadcrumbs-list"
@@ -70,14 +70,9 @@ const FooterTop = () => {
               property="itemListElement"
               typeof="ListItem"
             >
-              <Link
-                className="ac-gf-breadcrumbs-link"
-                href="/detail"
-                property="item"
-                typeof="WebPage"
-              >
+              <a className="ac-gf-breadcrumbs-link" href="#">
                 <span property="name">Only on Apple</span>
-              </Link>
+              </a>
               <meta property="position" content="1" />
             </li>
             <li
