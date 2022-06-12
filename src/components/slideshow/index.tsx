@@ -25,7 +25,7 @@ const SlidShow = (props: any) => {
 
               <div className="slide-container">
                 <Slide {...properties} easing="ease">
-                  {props.slideData.map((slide, index) => (
+                  {props.slideData.map((data : any, index : number) => (
                     <a
                       href="/detail"
                       className="slide-item feature theme-dark each-slide"
@@ -34,7 +34,7 @@ const SlidShow = (props: any) => {
                       <div className="inner fill">
                         <figure
                           className="art"
-                          style={{ backgroundImage: `url(${slide.image})` }}
+                          style={{ backgroundImage: `url(${data.image})` }}
                         ></figure>
                         <div className="gradient fill"></div>
                         <div
@@ -42,17 +42,17 @@ const SlidShow = (props: any) => {
                           style={{ transform: "translateX(0px)" }}
                         >
                           <p className="typography-shows-eyebrow coming-soon">
-                            {slide.comingSoon}
+                            {data.comingSoon}
                           </p>
                           <h3 className="logo">
                             <span className="visually-hidden">
-                              {slide.title}
+                              {data.title}
                             </span>
                           </h3>
                         </div>
                         <div className="info-bottom">
                           <p className="typography-shows-genre">
-                            {slide.description}
+                            {data.description}
                           </p>
                           <div>
                             <button className="custom-button small-solid icon icon-after icon-playsolid">
